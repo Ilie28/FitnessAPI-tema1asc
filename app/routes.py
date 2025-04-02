@@ -32,31 +32,42 @@ def post_endpoint():
 
 @webserver.route('/api/get_results/<job_id>', methods=['GET'])
 def get_response(job_id):
-    # TODO
-    # Check if job_id is valid
+    job_id = int(job_id)
+    webserver.log.info(f"Getting results for job_id %s", job_id)
+    # Check if the job_id exists in the jobs dictionary
+    if job_id <= webserver.job_counter:
+        task = webserver.tasks_runner.job_status.get(job_id, None)
+        if task is not None:
+            result = get_result(job_id)
+            webserver.log.info("Got result for job_id %s", job_id)
+            return jsonify({
+                "status": "done", 
+                "data": result, 
+            }), 200
 
-    # Check if job_id is done and return the result
-    #    res = res_for(job_id)
-    #    return jsonify({
-    #        'status': 'done',
-    #        'data': res
-    #    })
-
-    # If not, return running status
+        webserver.log.info("Task %s is still running", job_id)
+        return jsonify({
+            "status": "running",
+        }), 200
     
 
 @webserver.route('/api/states_mean', methods=['POST'])
 def states_mean_request():
     # Get request data
     data = request.json
-    print(f"Got request {data}")
 
-    # TODO
-    # Register job. Don't wait for task to finish
-    # Increment job_id counter
-    # Return associated job_id
+    webserver.log.info(f"Got data in states_mean_request: {data}")
+    return_data = add_task(data, "states_mean")
+    if return_data:
+        return jsonify({
+            "status": "done",
+            "job_id": return_data
+        }), 200
 
-    return jsonify({"status": "NotImplemented"})
+    return jsonify({
+        "status": "error",
+        "message": "Failed to add task"
+    }), 400
 
 @webserver.route('/api/state_mean', methods=['POST'])
 def state_mean_request():
@@ -160,3 +171,11 @@ def get_defined_routes():
         methods = ', '.join(rule.methods)
         routes.append(f"Endpoint: \"{rule}\" Methods: \"{methods}\"")
     return routes
+
+def get_result(job_id):
+    '''
+        Function that gets the result of a task
+    '''
+    with open(f"results/{job_id}.json", "r", encoding = "utf-8") as f:
+        result = json.load(f)
+    return result
