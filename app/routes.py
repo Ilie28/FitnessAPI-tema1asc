@@ -7,6 +7,7 @@ import json
 def make_job(func):
     return lambda: {"result": func()}
 
+
 # Example endpoint definition
 @webserver.route('/api/post_endpoint', methods=['POST'])
 def post_endpoint():
@@ -44,6 +45,7 @@ def get_response(job_id):
 def states_mean_request():
     data = request.json
     question = data.get("question")
+
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
 
@@ -52,9 +54,9 @@ def states_mean_request():
         return {"status": "done", "data": result}
 
     res = webserver.tasks_runner.add_task(job_id, job)
+
     if res == -1:
         return jsonify({"status": "error", "reason": "shutting down"}), 405
-
     webserver.logger.info(f"Received request for states_mean: {question} => {job_id}")
     return jsonify({"status": "running", "job_id": job_id})
 
@@ -63,6 +65,7 @@ def state_mean_request():
     data = request.json
     question = data.get("question")
     state = data.get("state")
+
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
 
@@ -71,9 +74,9 @@ def state_mean_request():
         return {"status": "done", "data": {state: mean}}
 
     res = webserver.tasks_runner.add_task(job_id, job)
+
     if res == -1:
         return jsonify({"status": "error", "reason": "shutting down"}), 405
-
     webserver.logger.info(f"Received request for state_mean: {question} + {state} => {job_id}")
     return jsonify({"status": "running", "job_id": job_id})
 
@@ -82,6 +85,7 @@ def state_mean_request():
 def best5_request():
     data = request.json
     question = data.get("question")
+
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
 
@@ -90,40 +94,41 @@ def best5_request():
         if question in webserver.data_ingestor.questions_best_is_min:
             best = dict(list(state_means.items())[:5])
         else:
-            best = dict(list(dict(sorted(state_means.items(), key=lambda item: item[1], reverse=True)).items())[:5])
+            best = dict(sorted(state_means.items(), key=lambda item: item[1], reverse=True)[:5])
         return {"status": "done", "data": best}
 
     res = webserver.tasks_runner.add_task(job_id, job)
+
     if res == -1:
         return jsonify({"status": "error", "reason": "shutting down"}), 405
-
     return jsonify({"status": "running", "job_id": job_id})
 
 @webserver.route('/api/worst5', methods=['POST'])
 def worst5_request():
     data = request.json
     question = data.get("question")
+
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
 
     def job():
         state_means = webserver.data_ingestor.get_states_mean(question)
         if question in webserver.data_ingestor.questions_best_is_min:
-            worst = dict(list(dict(sorted(state_means.items(), key=lambda item: item[1], reverse=True)).items())[:5])
+            worst = dict(sorted(state_means.items(), key=lambda item: item[1], reverse=True)[:5])
         else:
             worst = dict(list(state_means.items())[:5])
         return {"status": "done", "data": worst}
 
     res = webserver.tasks_runner.add_task(job_id, job)
+
     if res == -1:
         return jsonify({"status": "error", "reason": "shutting down"}), 405
-
     return jsonify({"status": "running", "job_id": job_id})
 
-@webserver.route('/api/global_mean', methods=['POST'])
 def global_mean_request():
     data = request.json
     question = data.get("question")
+
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
 
@@ -132,15 +137,16 @@ def global_mean_request():
         return {"status": "done", "data": value}
 
     res = webserver.tasks_runner.add_task(job_id, job)
+
     if res == -1:
         return jsonify({"status": "error", "reason": "shutting down"}), 405
-
     return jsonify({"status": "running", "job_id": job_id})
 
 @webserver.route('/api/diff_from_mean', methods=['POST'])
 def diff_from_mean_request():
     data = request.json
     question = data.get("question")
+
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
 
@@ -151,9 +157,9 @@ def diff_from_mean_request():
         return {"status": "done", "data": diff}
 
     res = webserver.tasks_runner.add_task(job_id, job)
+
     if res == -1:
         return jsonify({"status": "error", "reason": "shutting down"}), 405
-
     return jsonify({"status": "running", "job_id": job_id})
 
 
@@ -162,20 +168,20 @@ def state_diff_from_mean_request():
     data = request.json
     question = data.get("question")
     state = data.get("state")
+
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
 
     def job():
         global_mean = webserver.data_ingestor.get_global_mean(question)
         state_mean = webserver.data_ingestor.get_state_mean(question, state)
-        # Modificăm ordinea scăderii și rotunjim
         diff = round(global_mean - state_mean, 3)
         return {"status": "done", "data": {state: diff}}
 
     res = webserver.tasks_runner.add_task(job_id, job)
+
     if res == -1:
         return jsonify({"status": "error", "reason": "shutting down"}), 405
-
     return jsonify({"status": "running", "job_id": job_id})
 
 
@@ -183,6 +189,7 @@ def state_diff_from_mean_request():
 def mean_by_category_request():
     data = request.json
     question = data.get("question")
+
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
 
@@ -191,9 +198,9 @@ def mean_by_category_request():
         return {"status": "done", "data": result}
 
     res = webserver.tasks_runner.add_task(job_id, job)
+
     if res == -1:
         return jsonify({"status": "error", "reason": "shutting down"}), 405
-
     return jsonify({"status": "running", "job_id": job_id})
 
 
@@ -202,6 +209,7 @@ def state_mean_by_category_request():
     data = request.json
     question = data.get("question")
     state = data.get("state")
+
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
 
@@ -210,9 +218,9 @@ def state_mean_by_category_request():
         return {"status": "done", "data": result}
 
     res = webserver.tasks_runner.add_task(job_id, job)
+
     if res == -1:
         return jsonify({"status": "error", "reason": "shutting down"}), 405
-
     return jsonify({"status": "running", "job_id": job_id})
 
 @webserver.route('/api/graceful_shutdown', methods=['GET'])
