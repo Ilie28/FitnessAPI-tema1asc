@@ -21,3 +21,24 @@ class DataIngestor:
             'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)',
             'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week',
         ]
+    
+    def filter_by_question(self, question):
+        return self.df[self.df['Question'] == question]
+
+    def get_states_mean(self, question):
+        df = self.filter_by_question(question)
+        return df.groupby('LocationDesc')['Data_Value'].mean().sort_values().to_dict()
+
+    def get_state_mean(self, question, state):
+        df = self.filter_by_question(question)
+        return df[df['LocationDesc'] == state]['Data_Value'].mean()
+
+    def get_global_mean(self, question):
+        df = self.filter_by_question(question)
+        return df['Data_Value'].mean()
+
+    def get_mean_by_category(self, question, state=None):
+        df = self.filter_by_question(question)
+        if state:
+            df = df[df['LocationDesc'] == state]
+        return df.groupby(['StratificationCategory1', 'Stratification1'])['Data_Value'].mean().to_dict()

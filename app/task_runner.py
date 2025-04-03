@@ -1,106 +1,71 @@
 import os
 import json
-import logging
-from queue import Queue, Empty
+import threading
 from threading import Thread, Event
-from app.data_ingestor import DataIngestor
-
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
-ch = logging.StreamHandler()
-logger.addHandler(ch)
+from queue import Queue
+import multiprocessing
+from queue import Empty
 
 class ThreadPool:
-    def __init__(self):
-        # You must implement a ThreadPool of TaskRunners
-        # Your ThreadPool should check if an environment variable TP_NUM_OF_THREADS is defined
-        # If the env var is defined, that is the number of threads to be used by the thread pool
-        # Otherwise, you are to use what the hardware concurrency allows
-        # You are free to write your implementation as you see fit, but
-        # You must NOT:
-        #   * create more threads than the hardware concurrency allows
-        #   * recreate threads for each task
-        # Note: the TP_NUM_OF_THREADS env var will be defined by the checker
-
+    def __init__(self, logger, data_ingestor):
+        self.logger = logger
+        self.data_ingestor = data_ingestor
         self.tasks = Queue()
-        self.workers = []
+        self.shutdown_event = Event()
         self.job_status = {}
-        self.graceful_shutdown = Event()
-
-        num_threads = int(os.getenv("TP_NUM_OF_THREADS", multiprocessing.cpu_count()))
-        self.num_threads = max(1, min(num_threads, multiprocessing.cpu_count()))
-
-        self.data_ingestor = DataIngestor("./nutrition_activity_obesity_usa_subset.csv")
-        self.logger = logger if logger else logging.getLogger(__name__)
-
-        self.logger.info(f"ThreadPool has been initialised with: {self.num_threads} threads")
+        self.num_threads = int(os.environ.get("TP_NUM_OF_THREADS", multiprocessing.cpu_count()))
+        self.workers = []
 
         for i in range(self.num_threads):
-            worker = TaskRunner(self)
-            worker.start()
+            worker = TaskRunner(self.tasks, self.job_status, self.shutdown_event, logger, data_ingestor)
             self.workers.append(worker)
-            self.logger.info(f"Thread {i} has been started")
-        
-    def shutdown(self):
-        if not self.graceful_shutdown.is_set():
-            self.graceful_shutdown.set()
-            self.logger.info("ThreadPool is shutting down")
-            for _ in self.workers:
-                self.tasks.put((None, None))
+            worker.start()
+        self.logger.info(f"Thread pool initialized with {self.num_threads} threads.")
 
-            # Așteptăm să se termine toate joburile
-            for w in self.workers:
-                w.join()
-
-            self.logger.info("Thread pool has been shut down.")
-        else:
-            self.logger.warning("ThreadPool is already shutting down.")
-    
-    def add_task(self, job_id, closure):
+    def add_task(self, job_id, func):
+        if self.shutdown_event.is_set():
+            return -1
         self.job_status[job_id] = "running"
-        self.tasks.put((job_id, closure))
-        self.logger.info(f"Task {job_id} has been added to the queue")
+        self.tasks.put((job_id, func))
+        return job_id
+
+    def graceful_shutdown(self):
+        self.shutdown_event.set()
 
     def get_status(self, job_id):
         return self.job_status.get(job_id, "invalid")
-    
-    def get_all_jobs(self):
+
+    def all_jobs(self):
         return self.job_status
 
+    def pending_jobs(self):
+        return sum(1 for status in self.job_status.values() if status == "running")
 
 class TaskRunner(Thread):
-    def __init__(self, pool):
-        super().__init__()
-        self.pool = pool
+    def __init__(self, tasks, job_status, shutdown_event, logger, data_ingestor):
+        super().__init__(daemon=True)
+        self.tasks = tasks
+        self.job_status = job_status
+        self.shutdown_event = shutdown_event
+        self.logger = logger
+        self.data_ingestor = data_ingestor
 
     def run(self):
-        """
-        Intrăm într-un loop atâta timp cât ThreadPool-ul nu e închis (sau mai există joburi).
-        """
-        while True:
-            # Dacă s-a dat shutdown și coada e goală, worker-ul poate ieși
-            if self.pool.graceful_shutdown.is_set() and self.pool.tasks.empty():
-                break
-
+        while not self.shutdown_event.is_set() or not self.tasks.empty():
+            job_id = None
             try:
-                job_id, closure = self.pool.tasks.get(timeout=0.5)
+                job_id, func = self.tasks.get(timeout=1)
+                result = func()
+                with open(f"results/{job_id}.json", "w") as f:
+                    json.dump({"result": result}, f)
+                self.job_status[job_id] = "done"
+                self.logger.info(f"{job_id} finished and saved to disk.")
             except Empty:
-                # Nu am job în coadă, mai verificăm dacă e cazul să ieșim
                 continue
-
-            if job_id is None and closure is None:
-                # „Sentinelă” explicită de terminare.
-                break
-
-            # Executăm efectiv job-ul
-            try:
-                result = closure()
-                # Salvăm rezultatul în results/<job_id>.json
-                with open(f"results/{job_id}.json", "w", encoding="utf-8") as f:
-                    json.dump(result, f, indent=2)
-                self.pool.job_status[job_id] = "done"
             except Exception as e:
-                logger.exception(f"Exception in job {job_id}: {e}")
-                self.pool.job_status[job_id] = "error"
-            finally:
-                self.pool.tasks.task_done()
+                if job_id:
+                    self.job_status[job_id] = "error"
+                    self.logger.error(f"Error in job {job_id}: {e}")
+                else:
+                    self.logger.error(f"Thread error before getting job_id: {e}")
+
