@@ -287,3 +287,396 @@
 2025-04-03 10:25:32,832 - INFO - job_id_226 finished and saved to disk.
 2025-04-03 10:25:33,041 - INFO - job_id_227 finished and saved to disk.
 2025-04-03 10:25:33,250 - INFO - job_id_228 finished and saved to disk.
+2025-04-03 13:24:46,864 - INFO - Thread pool initialized with 12 threads.
+2025-04-03 13:25:22,764 - INFO - job_id_1 finished and saved to disk.
+2025-04-03 13:25:22,881 - INFO - job_id_2 finished and saved to disk.
+2025-04-03 13:25:23,122 - INFO - job_id_3 finished and saved to disk.
+2025-04-03 13:25:23,406 - INFO - job_id_4 finished and saved to disk.
+2025-04-03 13:25:23,636 - INFO - job_id_5 finished and saved to disk.
+2025-04-03 13:25:23,902 - INFO - job_id_6 finished and saved to disk.
+2025-04-03 13:25:24,144 - INFO - job_id_7 finished and saved to disk.
+2025-04-03 13:25:24,374 - INFO - job_id_8 finished and saved to disk.
+2025-04-03 13:25:24,611 - INFO - job_id_9 finished and saved to disk.
+2025-04-03 13:25:42,581 - INFO - job_id_10 finished and saved to disk.
+2025-04-03 13:25:42,843 - INFO - job_id_11 finished and saved to disk.
+2025-04-03 13:25:43,139 - INFO - job_id_12 finished and saved to disk.
+2025-04-03 13:25:45,828 - INFO - job_id_13 finished and saved to disk.
+2025-04-03 13:25:46,058 - INFO - job_id_14 finished and saved to disk.
+2025-04-03 13:25:46,300 - INFO - job_id_15 finished and saved to disk.
+2025-04-03 13:25:46,614 - INFO - job_id_16 finished and saved to disk.
+2025-04-03 13:25:46,857 - INFO - job_id_17 finished and saved to disk.
+2025-04-03 13:25:47,092 - INFO - job_id_18 finished and saved to disk.
+2025-04-03 13:25:47,889 - ERROR - Error in job job_id_19: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:25:48,094 - ERROR - Error in job job_id_20: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:25:48,381 - ERROR - Error in job job_id_21: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:25:48,618 - ERROR - Error in job job_id_22: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:25:48,861 - ERROR - Error in job job_id_23: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:25:49,099 - ERROR - Error in job job_id_24: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:25:49,349 - ERROR - Error in job job_id_25: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:25:49,614 - ERROR - Error in job job_id_26: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:25:49,852 - ERROR - Error in job job_id_27: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:25:50,141 - INFO - job_id_28 finished and saved to disk.
+2025-04-03 13:25:50,382 - INFO - job_id_29 finished and saved to disk.
+2025-04-03 13:25:50,665 - INFO - job_id_30 finished and saved to disk.
+2025-04-03 13:25:50,932 - INFO - job_id_31 finished and saved to disk.
+2025-04-03 13:25:51,210 - INFO - job_id_32 finished and saved to disk.
+2025-04-03 13:25:51,457 - INFO - job_id_33 finished and saved to disk.
+2025-04-03 13:25:51,697 - INFO - job_id_34 finished and saved to disk.
+2025-04-03 13:25:51,924 - INFO - job_id_35 finished and saved to disk.
+2025-04-03 13:25:52,192 - INFO - job_id_36 finished and saved to disk.
+2025-04-03 13:25:52,430 - INFO - job_id_37 finished and saved to disk.
+2025-04-03 13:25:52,686 - INFO - job_id_38 finished and saved to disk.
+2025-04-03 13:25:52,912 - INFO - job_id_39 finished and saved to disk.
+2025-04-03 13:25:53,159 - INFO - job_id_40 finished and saved to disk.
+2025-04-03 13:25:53,396 - INFO - job_id_41 finished and saved to disk.
+2025-04-03 13:25:53,635 - INFO - job_id_42 finished and saved to disk.
+2025-04-03 13:25:53,907 - INFO - job_id_43 finished and saved to disk.
+2025-04-03 13:25:54,147 - INFO - job_id_44 finished and saved to disk.
+2025-04-03 13:25:54,385 - INFO - job_id_45 finished and saved to disk.
+2025-04-03 13:25:54,682 - INFO - job_id_46 finished and saved to disk.
+2025-04-03 13:25:54,944 - INFO - job_id_47 finished and saved to disk.
+2025-04-03 13:25:55,163 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Wyoming => job_id_48
+2025-04-03 13:25:55,174 - INFO - job_id_48 finished and saved to disk.
+2025-04-03 13:25:55,402 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Connecticut => job_id_49
+2025-04-03 13:25:55,434 - INFO - job_id_49 finished and saved to disk.
+2025-04-03 13:25:55,659 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Colorado => job_id_50
+2025-04-03 13:25:55,671 - INFO - job_id_50 finished and saved to disk.
+2025-04-03 13:25:55,896 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Oregon => job_id_51
+2025-04-03 13:25:55,907 - INFO - job_id_51 finished and saved to disk.
+2025-04-03 13:25:56,134 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Wyoming => job_id_52
+2025-04-03 13:25:56,146 - INFO - job_id_52 finished and saved to disk.
+2025-04-03 13:25:56,406 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Connecticut => job_id_53
+2025-04-03 13:25:56,441 - INFO - job_id_53 finished and saved to disk.
+2025-04-03 13:25:56,664 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Colorado => job_id_54
+2025-04-03 13:25:56,676 - INFO - job_id_54 finished and saved to disk.
+2025-04-03 13:25:56,902 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Oregon => job_id_55
+2025-04-03 13:25:56,914 - INFO - job_id_55 finished and saved to disk.
+2025-04-03 13:25:57,139 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Wyoming => job_id_56
+2025-04-03 13:25:57,149 - INFO - job_id_56 finished and saved to disk.
+2025-04-03 13:25:57,394 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Connecticut => job_id_57
+2025-04-03 13:25:57,402 - INFO - job_id_57 finished and saved to disk.
+2025-04-03 13:25:57,630 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Colorado => job_id_58
+2025-04-03 13:25:57,641 - INFO - job_id_58 finished and saved to disk.
+2025-04-03 13:25:57,869 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Connecticut => job_id_59
+2025-04-03 13:25:57,879 - INFO - job_id_59 finished and saved to disk.
+2025-04-03 13:25:58,107 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Oregon => job_id_60
+2025-04-03 13:25:58,115 - INFO - job_id_60 finished and saved to disk.
+2025-04-03 13:25:58,384 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Colorado => job_id_61
+2025-04-03 13:25:58,412 - INFO - job_id_61 finished and saved to disk.
+2025-04-03 13:25:58,663 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Oregon => job_id_62
+2025-04-03 13:25:58,681 - INFO - job_id_62 finished and saved to disk.
+2025-04-03 13:25:58,941 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Wyoming => job_id_63
+2025-04-03 13:25:58,961 - INFO - job_id_63 finished and saved to disk.
+2025-04-03 13:25:59,191 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Connecticut => job_id_64
+2025-04-03 13:25:59,202 - INFO - job_id_64 finished and saved to disk.
+2025-04-03 13:25:59,432 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Colorado => job_id_65
+2025-04-03 13:25:59,443 - INFO - job_id_65 finished and saved to disk.
+2025-04-03 13:25:59,668 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Oregon => job_id_66
+2025-04-03 13:25:59,693 - INFO - job_id_66 finished and saved to disk.
+2025-04-03 13:25:59,906 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Wyoming => job_id_67
+2025-04-03 13:25:59,916 - INFO - job_id_67 finished and saved to disk.
+2025-04-03 13:26:00,205 - ERROR - Error in job job_id_68: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:00,445 - ERROR - Error in job job_id_69: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:00,679 - ERROR - Error in job job_id_70: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:00,919 - ERROR - Error in job job_id_71: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:01,221 - ERROR - Error in job job_id_72: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:01,460 - ERROR - Error in job job_id_73: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:01,699 - ERROR - Error in job job_id_74: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:01,938 - ERROR - Error in job job_id_75: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:02,179 - ERROR - Error in job job_id_76: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:02,416 - ERROR - Error in job job_id_77: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:02,646 - ERROR - Error in job job_id_78: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:02,985 - ERROR - Error in job job_id_79: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:03,218 - ERROR - Error in job job_id_80: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:03,459 - ERROR - Error in job job_id_81: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:03,712 - ERROR - Error in job job_id_82: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:03,948 - ERROR - Error in job job_id_83: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:04,207 - ERROR - Error in job job_id_84: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:04,445 - ERROR - Error in job job_id_85: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:04,686 - ERROR - Error in job job_id_86: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:04,927 - ERROR - Error in job job_id_87: keys must be str, int, float, bool or None, not tuple
+2025-04-03 13:26:05,163 - INFO - Received request for states_mean: Percent of adults aged 18 years and older who have an overweight classification => job_id_88
+2025-04-03 13:26:05,186 - INFO - job_id_88 finished and saved to disk.
+2025-04-03 13:26:05,405 - INFO - Received request for states_mean: Percent of adults aged 18 years and older who have obesity => job_id_89
+2025-04-03 13:26:05,419 - INFO - job_id_89 finished and saved to disk.
+2025-04-03 13:26:05,645 - INFO - Received request for states_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_90
+2025-04-03 13:26:05,656 - INFO - job_id_90 finished and saved to disk.
+2025-04-03 13:26:05,885 - INFO - Received request for states_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week => job_id_91
+2025-04-03 13:26:05,895 - INFO - job_id_91 finished and saved to disk.
+2025-04-03 13:26:06,124 - INFO - Received request for states_mean: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_92
+2025-04-03 13:26:06,148 - INFO - job_id_92 finished and saved to disk.
+2025-04-03 13:26:06,366 - INFO - Received request for states_mean: Percent of adults who engage in muscle-strengthening activities on 2 or more days a week => job_id_93
+2025-04-03 13:26:06,377 - INFO - job_id_93 finished and saved to disk.
+2025-04-03 13:26:06,609 - INFO - Received request for states_mean: Percent of adults who engage in no leisure-time physical activity => job_id_94
+2025-04-03 13:26:06,627 - INFO - job_id_94 finished and saved to disk.
+2025-04-03 13:26:06,864 - INFO - Received request for states_mean: Percent of adults who report consuming fruit less than one time daily => job_id_95
+2025-04-03 13:26:06,874 - INFO - job_id_95 finished and saved to disk.
+2025-04-03 13:26:07,101 - INFO - Received request for states_mean: Percent of adults who report consuming vegetables less than one time daily => job_id_96
+2025-04-03 13:26:07,110 - INFO - job_id_96 finished and saved to disk.
+2025-04-03 13:26:07,362 - INFO - job_id_97 finished and saved to disk.
+2025-04-03 13:26:07,600 - INFO - job_id_98 finished and saved to disk.
+2025-04-03 13:26:07,835 - INFO - job_id_99 finished and saved to disk.
+2025-04-03 13:26:08,073 - INFO - job_id_100 finished and saved to disk.
+2025-04-03 13:26:08,315 - INFO - job_id_101 finished and saved to disk.
+2025-04-03 13:26:08,551 - INFO - job_id_102 finished and saved to disk.
+2025-04-03 13:26:08,835 - INFO - job_id_103 finished and saved to disk.
+2025-04-03 13:26:09,068 - INFO - job_id_104 finished and saved to disk.
+2025-04-03 13:26:09,300 - INFO - job_id_105 finished and saved to disk.
+2025-04-03 14:14:38,562 - INFO - Thread pool initialized with 12 threads.
+2025-04-03 14:16:42,304 - INFO - Received request for best5: Percent of adults aged 18 years and older who have an overweight classification => job_id_1
+2025-04-03 14:16:42,586 - INFO - job_id_1 finished and saved to disk.
+2025-04-03 14:16:42,685 - INFO - Received request for best5: Percent of adults aged 18 years and older who have obesity => job_id_2
+2025-04-03 14:16:42,700 - INFO - job_id_2 finished and saved to disk.
+2025-04-03 14:16:42,945 - INFO - Received request for best5: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_3
+2025-04-03 14:16:42,960 - INFO - job_id_3 finished and saved to disk.
+2025-04-03 14:16:43,248 - INFO - Received request for best5: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week => job_id_4
+2025-04-03 14:16:43,281 - INFO - job_id_4 finished and saved to disk.
+2025-04-03 14:16:43,537 - INFO - Received request for best5: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_5
+2025-04-03 14:16:43,551 - INFO - job_id_5 finished and saved to disk.
+2025-04-03 14:16:43,788 - INFO - Received request for best5: Percent of adults who engage in muscle-strengthening activities on 2 or more days a week => job_id_6
+2025-04-03 14:16:43,801 - INFO - job_id_6 finished and saved to disk.
+2025-04-03 14:16:44,146 - INFO - Received request for best5: Percent of adults who engage in no leisure-time physical activity => job_id_7
+2025-04-03 14:16:44,180 - INFO - job_id_7 finished and saved to disk.
+2025-04-03 14:16:44,462 - INFO - Received request for best5: Percent of adults who report consuming fruit less than one time daily => job_id_8
+2025-04-03 14:16:44,485 - INFO - job_id_8 finished and saved to disk.
+2025-04-03 14:16:44,803 - INFO - Received request for best5: Percent of adults who report consuming vegetables less than one time daily => job_id_9
+2025-04-03 14:16:44,830 - INFO - job_id_9 finished and saved to disk.
+2025-04-03 14:17:13,579 - INFO - Received request for diff_from_mean: Percent of adults aged 18 years and older who have an overweight classification => job_id_10
+2025-04-03 14:17:13,636 - INFO - job_id_10 finished and saved to disk.
+2025-04-03 14:17:13,843 - INFO - Received request for diff_from_mean: Percent of adults aged 18 years and older who have obesity => job_id_11
+2025-04-03 14:17:13,870 - INFO - job_id_11 finished and saved to disk.
+2025-04-03 14:17:14,124 - INFO - Received request for diff_from_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_12
+2025-04-03 14:17:14,142 - INFO - job_id_12 finished and saved to disk.
+2025-04-03 14:17:14,389 - INFO - Received request for diff_from_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week => job_id_13
+2025-04-03 14:17:14,404 - INFO - job_id_13 finished and saved to disk.
+2025-04-03 14:17:14,644 - INFO - Received request for diff_from_mean: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_14
+2025-04-03 14:17:14,668 - INFO - job_id_14 finished and saved to disk.
+2025-04-03 14:17:14,891 - INFO - Received request for diff_from_mean: Percent of adults who engage in muscle-strengthening activities on 2 or more days a week => job_id_15
+2025-04-03 14:17:14,904 - INFO - job_id_15 finished and saved to disk.
+2025-04-03 14:17:15,149 - INFO - Received request for diff_from_mean: Percent of adults who engage in no leisure-time physical activity => job_id_16
+2025-04-03 14:17:15,168 - INFO - job_id_16 finished and saved to disk.
+2025-04-03 14:17:15,432 - INFO - Received request for diff_from_mean: Percent of adults who report consuming fruit less than one time daily => job_id_17
+2025-04-03 14:17:15,461 - INFO - job_id_17 finished and saved to disk.
+2025-04-03 14:17:15,717 - INFO - Received request for diff_from_mean: Percent of adults who report consuming vegetables less than one time daily => job_id_18
+2025-04-03 14:17:15,752 - INFO - job_id_18 finished and saved to disk.
+2025-04-03 14:17:16,018 - INFO - Received request for global_mean: Percent of adults aged 18 years and older who have an overweight classification => job_id_19
+2025-04-03 14:17:16,035 - INFO - job_id_19 finished and saved to disk.
+2025-04-03 14:17:16,295 - INFO - Received request for global_mean: Percent of adults aged 18 years and older who have obesity => job_id_20
+2025-04-03 14:17:16,310 - INFO - job_id_20 finished and saved to disk.
+2025-04-03 14:17:16,593 - INFO - Received request for global_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_21
+2025-04-03 14:17:16,618 - INFO - job_id_21 finished and saved to disk.
+2025-04-03 14:17:16,891 - INFO - Received request for global_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week => job_id_22
+2025-04-03 14:17:16,906 - INFO - job_id_22 finished and saved to disk.
+2025-04-03 14:17:17,150 - INFO - Received request for global_mean: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_23
+2025-04-03 14:17:17,179 - INFO - job_id_23 finished and saved to disk.
+2025-04-03 14:17:17,410 - INFO - Received request for global_mean: Percent of adults who engage in muscle-strengthening activities on 2 or more days a week => job_id_24
+2025-04-03 14:17:17,421 - INFO - job_id_24 finished and saved to disk.
+2025-04-03 14:17:17,662 - INFO - Received request for global_mean: Percent of adults who engage in no leisure-time physical activity => job_id_25
+2025-04-03 14:17:17,674 - INFO - job_id_25 finished and saved to disk.
+2025-04-03 14:17:17,921 - INFO - Received request for global_mean: Percent of adults who report consuming fruit less than one time daily => job_id_26
+2025-04-03 14:17:17,929 - INFO - job_id_26 finished and saved to disk.
+2025-04-03 14:17:18,172 - INFO - Received request for global_mean: Percent of adults who report consuming vegetables less than one time daily => job_id_27
+2025-04-03 14:17:18,181 - INFO - job_id_27 finished and saved to disk.
+2025-04-03 14:17:18,438 - INFO - Received request for mean_by_category: Percent of adults aged 18 years and older who have an overweight classification => job_id_28
+2025-04-03 14:17:18,517 - INFO - job_id_28 finished and saved to disk.
+2025-04-03 14:17:18,721 - INFO - Received request for mean_by_category: Percent of adults aged 18 years and older who have obesity => job_id_29
+2025-04-03 14:17:18,734 - INFO - job_id_29 finished and saved to disk.
+2025-04-03 14:17:19,021 - INFO - Received request for mean_by_category: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_30
+2025-04-03 14:17:19,036 - INFO - job_id_30 finished and saved to disk.
+2025-04-03 14:17:19,330 - INFO - Received request for mean_by_category: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week => job_id_31
+2025-04-03 14:17:19,352 - INFO - job_id_31 finished and saved to disk.
+2025-04-03 14:17:19,614 - INFO - Received request for mean_by_category: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_32
+2025-04-03 14:17:19,646 - INFO - job_id_32 finished and saved to disk.
+2025-04-03 14:17:19,935 - INFO - Received request for mean_by_category: Percent of adults who engage in muscle-strengthening activities on 2 or more days a week => job_id_33
+2025-04-03 14:17:19,974 - INFO - job_id_33 finished and saved to disk.
+2025-04-03 14:17:20,257 - INFO - Received request for mean_by_category: Percent of adults who engage in no leisure-time physical activity => job_id_34
+2025-04-03 14:17:20,304 - INFO - job_id_34 finished and saved to disk.
+2025-04-03 14:17:20,564 - INFO - Received request for mean_by_category: Percent of adults who report consuming fruit less than one time daily => job_id_35
+2025-04-03 14:17:20,585 - INFO - job_id_35 finished and saved to disk.
+2025-04-03 14:17:20,850 - INFO - Received request for mean_by_category: Percent of adults who report consuming vegetables less than one time daily => job_id_36
+2025-04-03 14:17:20,874 - INFO - job_id_36 finished and saved to disk.
+2025-04-03 14:17:21,130 - INFO - Received request for state_diff_from_mean: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Delaware => job_id_37
+2025-04-03 14:17:21,147 - INFO - job_id_37 finished and saved to disk.
+2025-04-03 14:17:21,444 - INFO - Received request for state_diff_from_mean: Percent of adults who report consuming vegetables less than one time daily + Massachusetts => job_id_38
+2025-04-03 14:17:21,486 - INFO - job_id_38 finished and saved to disk.
+2025-04-03 14:17:21,747 - INFO - Received request for state_diff_from_mean: Percent of adults who report consuming vegetables less than one time daily + Minnesota => job_id_39
+2025-04-03 14:17:21,770 - INFO - job_id_39 finished and saved to disk.
+2025-04-03 14:17:22,036 - INFO - Received request for state_diff_from_mean: Percent of adults who report consuming vegetables less than one time daily + Florida => job_id_40
+2025-04-03 14:17:22,075 - INFO - job_id_40 finished and saved to disk.
+2025-04-03 14:17:22,351 - INFO - Received request for state_diff_from_mean: Percent of adults who report consuming fruit less than one time daily + Delaware => job_id_41
+2025-04-03 14:17:22,376 - INFO - job_id_41 finished and saved to disk.
+2025-04-03 14:17:22,643 - INFO - Received request for state_diff_from_mean: Percent of adults who report consuming fruit less than one time daily + Massachusetts => job_id_42
+2025-04-03 14:17:22,666 - INFO - job_id_42 finished and saved to disk.
+2025-04-03 14:17:22,969 - INFO - Received request for state_diff_from_mean: Percent of adults who report consuming fruit less than one time daily + Minnesota => job_id_43
+2025-04-03 14:17:23,008 - INFO - job_id_43 finished and saved to disk.
+2025-04-03 14:17:23,309 - INFO - Received request for state_diff_from_mean: Percent of adults who report consuming fruit less than one time daily + Florida => job_id_44
+2025-04-03 14:17:23,341 - INFO - job_id_44 finished and saved to disk.
+2025-04-03 14:17:23,627 - INFO - Received request for state_diff_from_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Delaware => job_id_45
+2025-04-03 14:17:23,653 - INFO - job_id_45 finished and saved to disk.
+2025-04-03 14:17:23,953 - INFO - Received request for state_diff_from_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Massachusetts => job_id_46
+2025-04-03 14:17:23,991 - INFO - job_id_46 finished and saved to disk.
+2025-04-03 14:17:24,286 - INFO - Received request for state_diff_from_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Minnesota => job_id_47
+2025-04-03 14:17:24,313 - INFO - job_id_47 finished and saved to disk.
+2025-04-03 14:17:24,605 - INFO - Received request for state_diff_from_mean: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Massachusetts => job_id_48
+2025-04-03 14:17:24,645 - INFO - job_id_48 finished and saved to disk.
+2025-04-03 14:17:24,942 - INFO - Received request for state_diff_from_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Florida => job_id_49
+2025-04-03 14:17:24,985 - INFO - job_id_49 finished and saved to disk.
+2025-04-03 14:17:25,226 - INFO - Received request for state_diff_from_mean: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Minnesota => job_id_50
+2025-04-03 14:17:25,241 - INFO - job_id_50 finished and saved to disk.
+2025-04-03 14:17:25,334 - INFO - Received request for state_diff_from_mean: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Florida => job_id_51
+2025-04-03 14:17:25,355 - INFO - job_id_51 finished and saved to disk.
+2025-04-03 14:17:25,617 - INFO - Received request for state_diff_from_mean: Percent of adults who report consuming vegetables less than one time daily + Delaware => job_id_52
+2025-04-03 14:17:25,652 - INFO - job_id_52 finished and saved to disk.
+2025-04-03 14:17:25,912 - INFO - Received request for state_diff_from_mean: Percent of adults who report consuming vegetables less than one time daily + Massachusetts => job_id_53
+2025-04-03 14:17:25,949 - INFO - job_id_53 finished and saved to disk.
+2025-04-03 14:17:26,185 - INFO - Received request for state_diff_from_mean: Percent of adults who report consuming vegetables less than one time daily + Minnesota => job_id_54
+2025-04-03 14:17:26,223 - INFO - job_id_54 finished and saved to disk.
+2025-04-03 14:17:26,465 - INFO - Received request for state_diff_from_mean: Percent of adults who report consuming vegetables less than one time daily + Florida => job_id_55
+2025-04-03 14:17:26,525 - INFO - job_id_55 finished and saved to disk.
+2025-04-03 14:17:26,804 - INFO - Received request for state_diff_from_mean: Percent of adults who report consuming vegetables less than one time daily + Delaware => job_id_56
+2025-04-03 14:17:26,843 - INFO - job_id_56 finished and saved to disk.
+2025-04-03 14:17:27,121 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Wyoming => job_id_57
+2025-04-03 14:17:27,122 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Wyoming => job_id_57
+2025-04-03 14:17:27,134 - INFO - job_id_57 finished and saved to disk.
+2025-04-03 14:17:27,461 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Connecticut => job_id_58
+2025-04-03 14:17:27,462 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Connecticut => job_id_58
+2025-04-03 14:17:27,487 - INFO - job_id_58 finished and saved to disk.
+2025-04-03 14:17:27,807 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Colorado => job_id_59
+2025-04-03 14:17:27,808 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Colorado => job_id_59
+2025-04-03 14:17:27,827 - INFO - job_id_59 finished and saved to disk.
+2025-04-03 14:17:28,140 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Oregon => job_id_60
+2025-04-03 14:17:28,142 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Oregon => job_id_60
+2025-04-03 14:17:28,161 - INFO - job_id_60 finished and saved to disk.
+2025-04-03 14:17:28,460 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Wyoming => job_id_61
+2025-04-03 14:17:28,461 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Wyoming => job_id_61
+2025-04-03 14:17:28,482 - INFO - job_id_61 finished and saved to disk.
+2025-04-03 14:17:28,786 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Connecticut => job_id_62
+2025-04-03 14:17:28,787 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Connecticut => job_id_62
+2025-04-03 14:17:28,806 - INFO - job_id_62 finished and saved to disk.
+2025-04-03 14:17:29,129 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Colorado => job_id_63
+2025-04-03 14:17:29,130 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Colorado => job_id_63
+2025-04-03 14:17:29,146 - INFO - job_id_63 finished and saved to disk.
+2025-04-03 14:17:29,461 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Oregon => job_id_64
+2025-04-03 14:17:29,463 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Oregon => job_id_64
+2025-04-03 14:17:29,493 - INFO - job_id_64 finished and saved to disk.
+2025-04-03 14:17:29,799 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Wyoming => job_id_65
+2025-04-03 14:17:29,800 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Wyoming => job_id_65
+2025-04-03 14:17:29,825 - INFO - job_id_65 finished and saved to disk.
+2025-04-03 14:17:30,139 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Connecticut => job_id_66
+2025-04-03 14:17:30,140 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Connecticut => job_id_66
+2025-04-03 14:17:30,154 - INFO - job_id_66 finished and saved to disk.
+2025-04-03 14:17:30,558 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Colorado => job_id_67
+2025-04-03 14:17:30,560 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Colorado => job_id_67
+2025-04-03 14:17:30,600 - INFO - job_id_67 finished and saved to disk.
+2025-04-03 14:17:30,870 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Connecticut => job_id_68
+2025-04-03 14:17:30,871 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Connecticut => job_id_68
+2025-04-03 14:17:30,891 - INFO - job_id_68 finished and saved to disk.
+2025-04-03 14:17:31,165 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Oregon => job_id_69
+2025-04-03 14:17:31,166 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Oregon => job_id_69
+2025-04-03 14:17:31,176 - INFO - job_id_69 finished and saved to disk.
+2025-04-03 14:17:31,489 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Colorado => job_id_70
+2025-04-03 14:17:31,491 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Colorado => job_id_70
+2025-04-03 14:17:31,525 - INFO - job_id_70 finished and saved to disk.
+2025-04-03 14:17:31,833 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Oregon => job_id_71
+2025-04-03 14:17:31,834 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Oregon => job_id_71
+2025-04-03 14:17:31,858 - INFO - job_id_71 finished and saved to disk.
+2025-04-03 14:17:32,183 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Wyoming => job_id_72
+2025-04-03 14:17:32,184 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Wyoming => job_id_72
+2025-04-03 14:17:32,208 - INFO - job_id_72 finished and saved to disk.
+2025-04-03 14:17:32,521 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Connecticut => job_id_73
+2025-04-03 14:17:32,522 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Connecticut => job_id_73
+2025-04-03 14:17:32,551 - INFO - job_id_73 finished and saved to disk.
+2025-04-03 14:17:32,854 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Colorado => job_id_74
+2025-04-03 14:17:32,855 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Colorado => job_id_74
+2025-04-03 14:17:32,881 - INFO - job_id_74 finished and saved to disk.
+2025-04-03 14:17:33,158 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Oregon => job_id_75
+2025-04-03 14:17:33,160 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Oregon => job_id_75
+2025-04-03 14:17:33,194 - INFO - job_id_75 finished and saved to disk.
+2025-04-03 14:17:33,472 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Wyoming => job_id_76
+2025-04-03 14:17:33,472 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Wyoming => job_id_76
+2025-04-03 14:17:33,484 - INFO - job_id_76 finished and saved to disk.
+2025-04-03 14:17:33,815 - INFO - Received request for state_mean_by_category: Percent of adults who engage in no leisure-time physical activity + Maryland => job_id_77
+2025-04-03 14:17:33,838 - INFO - job_id_77 finished and saved to disk.
+2025-04-03 14:17:34,080 - INFO - Received request for state_mean_by_category: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Michigan => job_id_78
+2025-04-03 14:17:34,091 - INFO - job_id_78 finished and saved to disk.
+2025-04-03 14:17:34,405 - INFO - Received request for state_mean_by_category: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + West Virginia => job_id_79
+2025-04-03 14:17:34,437 - INFO - job_id_79 finished and saved to disk.
+2025-04-03 14:17:34,743 - INFO - Received request for state_mean_by_category: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Indiana => job_id_80
+2025-04-03 14:17:34,775 - INFO - job_id_80 finished and saved to disk.
+2025-04-03 14:17:35,045 - INFO - Received request for state_mean_by_category: Percent of adults who engage in no leisure-time physical activity + Maryland => job_id_81
+2025-04-03 14:17:35,081 - INFO - job_id_81 finished and saved to disk.
+2025-04-03 14:17:35,397 - INFO - Received request for state_mean_by_category: Percent of adults who engage in no leisure-time physical activity + Michigan => job_id_82
+2025-04-03 14:17:35,427 - INFO - job_id_82 finished and saved to disk.
+2025-04-03 14:17:35,745 - INFO - Received request for state_mean_by_category: Percent of adults who engage in no leisure-time physical activity + West Virginia => job_id_83
+2025-04-03 14:17:35,788 - INFO - job_id_83 finished and saved to disk.
+2025-04-03 14:17:36,100 - INFO - Received request for state_mean_by_category: Percent of adults who engage in no leisure-time physical activity + Indiana => job_id_84
+2025-04-03 14:17:36,132 - INFO - job_id_84 finished and saved to disk.
+2025-04-03 14:17:36,451 - INFO - Received request for state_mean_by_category: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Maryland => job_id_85
+2025-04-03 14:17:36,489 - INFO - job_id_85 finished and saved to disk.
+2025-04-03 14:17:36,794 - INFO - Received request for state_mean_by_category: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Michigan => job_id_86
+2025-04-03 14:17:36,816 - INFO - job_id_86 finished and saved to disk.
+2025-04-03 14:17:37,103 - INFO - Received request for state_mean_by_category: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + West Virginia => job_id_87
+2025-04-03 14:17:37,126 - INFO - job_id_87 finished and saved to disk.
+2025-04-03 14:17:37,398 - INFO - Received request for state_mean_by_category: Percent of adults who engage in no leisure-time physical activity + Michigan => job_id_88
+2025-04-03 14:17:37,443 - INFO - job_id_88 finished and saved to disk.
+2025-04-03 14:17:37,745 - INFO - Received request for state_mean_by_category: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Indiana => job_id_89
+2025-04-03 14:17:37,784 - INFO - job_id_89 finished and saved to disk.
+2025-04-03 14:17:38,058 - INFO - Received request for state_mean_by_category: Percent of adults who engage in no leisure-time physical activity + West Virginia => job_id_90
+2025-04-03 14:17:38,094 - INFO - job_id_90 finished and saved to disk.
+2025-04-03 14:17:38,380 - INFO - Received request for state_mean_by_category: Percent of adults who engage in no leisure-time physical activity + Indiana => job_id_91
+2025-04-03 14:17:38,418 - INFO - job_id_91 finished and saved to disk.
+2025-04-03 14:17:38,659 - INFO - Received request for state_mean_by_category: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Maryland => job_id_92
+2025-04-03 14:17:38,676 - INFO - job_id_92 finished and saved to disk.
+2025-04-03 14:17:38,962 - INFO - Received request for state_mean_by_category: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Michigan => job_id_93
+2025-04-03 14:17:38,987 - INFO - job_id_93 finished and saved to disk.
+2025-04-03 14:17:39,263 - INFO - Received request for state_mean_by_category: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + West Virginia => job_id_94
+2025-04-03 14:17:39,308 - INFO - job_id_94 finished and saved to disk.
+2025-04-03 14:17:39,562 - INFO - Received request for state_mean_by_category: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Indiana => job_id_95
+2025-04-03 14:17:39,578 - INFO - job_id_95 finished and saved to disk.
+2025-04-03 14:17:39,874 - INFO - Received request for state_mean_by_category: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Maryland => job_id_96
+2025-04-03 14:17:39,900 - INFO - job_id_96 finished and saved to disk.
+2025-04-03 14:17:40,224 - INFO - Received request for states_mean: Percent of adults aged 18 years and older who have an overweight classification => job_id_97
+2025-04-03 14:17:40,225 - INFO - Received request for states_mean: Percent of adults aged 18 years and older who have an overweight classification => job_id_97
+2025-04-03 14:17:40,253 - INFO - job_id_97 finished and saved to disk.
+2025-04-03 14:17:40,554 - INFO - Received request for states_mean: Percent of adults aged 18 years and older who have obesity => job_id_98
+2025-04-03 14:17:40,555 - INFO - Received request for states_mean: Percent of adults aged 18 years and older who have obesity => job_id_98
+2025-04-03 14:17:40,574 - INFO - job_id_98 finished and saved to disk.
+2025-04-03 14:17:40,871 - INFO - Received request for states_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_99
+2025-04-03 14:17:40,873 - INFO - Received request for states_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_99
+2025-04-03 14:17:40,899 - INFO - job_id_99 finished and saved to disk.
+2025-04-03 14:17:41,143 - INFO - Received request for states_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week => job_id_100
+2025-04-03 14:17:41,144 - INFO - Received request for states_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week => job_id_100
+2025-04-03 14:17:41,153 - INFO - job_id_100 finished and saved to disk.
+2025-04-03 14:17:44,344 - INFO - Received request for states_mean: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_101
+2025-04-03 14:17:44,345 - INFO - Received request for states_mean: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_101
+2025-04-03 14:17:44,370 - INFO - job_id_101 finished and saved to disk.
+2025-04-03 14:17:44,661 - INFO - Received request for states_mean: Percent of adults who engage in muscle-strengthening activities on 2 or more days a week => job_id_102
+2025-04-03 14:17:44,662 - INFO - Received request for states_mean: Percent of adults who engage in muscle-strengthening activities on 2 or more days a week => job_id_102
+2025-04-03 14:17:44,684 - INFO - job_id_102 finished and saved to disk.
+2025-04-03 14:17:44,952 - INFO - Received request for states_mean: Percent of adults who engage in no leisure-time physical activity => job_id_103
+2025-04-03 14:17:44,953 - INFO - Received request for states_mean: Percent of adults who engage in no leisure-time physical activity => job_id_103
+2025-04-03 14:17:44,967 - INFO - job_id_103 finished and saved to disk.
+2025-04-03 14:17:45,267 - INFO - Received request for states_mean: Percent of adults who report consuming fruit less than one time daily => job_id_104
+2025-04-03 14:17:45,269 - INFO - Received request for states_mean: Percent of adults who report consuming fruit less than one time daily => job_id_104
+2025-04-03 14:17:45,295 - INFO - job_id_104 finished and saved to disk.
+2025-04-03 14:17:45,539 - INFO - Received request for states_mean: Percent of adults who report consuming vegetables less than one time daily => job_id_105
+2025-04-03 14:17:45,540 - INFO - Received request for states_mean: Percent of adults who report consuming vegetables less than one time daily => job_id_105
+2025-04-03 14:17:45,554 - INFO - job_id_105 finished and saved to disk.
+2025-04-03 14:17:45,859 - INFO - Received request for worst5: Percent of adults aged 18 years and older who have an overweight classification => job_id_106
+2025-04-03 14:17:45,889 - INFO - job_id_106 finished and saved to disk.
+2025-04-03 14:17:46,171 - INFO - Received request for worst5: Percent of adults aged 18 years and older who have obesity => job_id_107
+2025-04-03 14:17:46,195 - INFO - job_id_107 finished and saved to disk.
+2025-04-03 14:17:46,484 - INFO - Received request for worst5: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_108
+2025-04-03 14:17:46,532 - INFO - job_id_108 finished and saved to disk.
+2025-04-03 14:17:46,773 - INFO - Received request for worst5: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week => job_id_109
+2025-04-03 14:17:46,802 - INFO - job_id_109 finished and saved to disk.
+2025-04-03 14:17:47,050 - INFO - Received request for worst5: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_110
+2025-04-03 14:17:47,068 - INFO - job_id_110 finished and saved to disk.
+2025-04-03 14:17:47,369 - INFO - Received request for worst5: Percent of adults who engage in muscle-strengthening activities on 2 or more days a week => job_id_111
+2025-04-03 14:17:47,388 - INFO - job_id_111 finished and saved to disk.
+2025-04-03 14:17:47,646 - INFO - Received request for worst5: Percent of adults who engage in no leisure-time physical activity => job_id_112
+2025-04-03 14:17:47,659 - INFO - job_id_112 finished and saved to disk.
+2025-04-03 14:17:47,914 - INFO - Received request for worst5: Percent of adults who report consuming fruit less than one time daily => job_id_113
+2025-04-03 14:17:47,925 - INFO - job_id_113 finished and saved to disk.
+2025-04-03 14:17:48,176 - INFO - Received request for worst5: Percent of adults who report consuming vegetables less than one time daily => job_id_114
+2025-04-03 14:17:48,190 - INFO - job_id_114 finished and saved to disk.

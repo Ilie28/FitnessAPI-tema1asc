@@ -49,6 +49,8 @@ def states_mean_request():
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
 
+    webserver.logger.info(f"Received request for states_mean: {question} => {job_id}")
+
     def job():
         result = webserver.data_ingestor.get_states_mean(question)
         return {"status": "done", "data": result}
@@ -69,6 +71,8 @@ def state_mean_request():
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
 
+    webserver.logger.info(f"Received request for state_mean: {question} + {state} => {job_id}")
+
     def job():
         mean = webserver.data_ingestor.get_state_mean(question, state)
         return {"status": "done", "data": {state: mean}}
@@ -88,6 +92,8 @@ def best5_request():
 
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
+
+    webserver.logger.info(f"Received request for best5: {question} => {job_id}")
 
     def job():
         state_means = webserver.data_ingestor.get_states_mean(question)
@@ -111,6 +117,8 @@ def worst5_request():
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
 
+    webserver.logger.info(f"Received request for worst5: {question} => {job_id}")
+
     def job():
         state_means = webserver.data_ingestor.get_states_mean(question)
         if question in webserver.data_ingestor.questions_best_is_min:
@@ -125,12 +133,15 @@ def worst5_request():
         return jsonify({"status": "error", "reason": "shutting down"}), 405
     return jsonify({"status": "running", "job_id": job_id})
 
+@webserver.route('/api/global_mean', methods=['POST'])
 def global_mean_request():
     data = request.json
     question = data.get("question")
 
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
+
+    webserver.logger.info(f"Received request for global_mean: {question} => {job_id}")
 
     def job():
         value = webserver.data_ingestor.get_global_mean(question)
@@ -149,6 +160,8 @@ def diff_from_mean_request():
 
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
+
+    webserver.logger.info(f"Received request for diff_from_mean: {question} => {job_id}")
 
     def job():
         global_mean = webserver.data_ingestor.get_global_mean(question)
@@ -172,6 +185,8 @@ def state_diff_from_mean_request():
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
 
+    webserver.logger.info(f"Received request for state_diff_from_mean: {question} + {state} => {job_id}")
+
     def job():
         global_mean = webserver.data_ingestor.get_global_mean(question)
         state_mean = webserver.data_ingestor.get_state_mean(question, state)
@@ -193,15 +208,18 @@ def mean_by_category_request():
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
 
+    webserver.logger.info(f"Received request for mean_by_category: {question} => {job_id}")
+
     def job():
         result = webserver.data_ingestor.get_mean_by_category(question)
+        result = {str(k): v for k, v in result.items()}
         return {"status": "done", "data": result}
 
     res = webserver.tasks_runner.add_task(job_id, job)
-
     if res == -1:
         return jsonify({"status": "error", "reason": "shutting down"}), 405
     return jsonify({"status": "running", "job_id": job_id})
+
 
 
 @webserver.route('/api/state_mean_by_category', methods=['POST'])
@@ -213,15 +231,18 @@ def state_mean_by_category_request():
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
 
+    webserver.logger.info(f"Received request for state_mean_by_category: {question} + {state} => {job_id}")
+
     def job():
         result = webserver.data_ingestor.get_mean_by_category(question, state=state)
+        result = {str(k): v for k, v in result.items()}  # 🔧 Fix aici
         return {"status": "done", "data": result}
 
     res = webserver.tasks_runner.add_task(job_id, job)
-
     if res == -1:
         return jsonify({"status": "error", "reason": "shutting down"}), 405
     return jsonify({"status": "running", "job_id": job_id})
+
 
 @webserver.route('/api/graceful_shutdown', methods=['GET'])
 def graceful_shutdown():
