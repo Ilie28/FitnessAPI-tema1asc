@@ -40,7 +40,7 @@ def get_response(job_id):
             # Se returnează direct rezultatul job‑ului
             return jsonify({"status": "done", "data": result["result"]})
         except:
-            return jsonify({"status": "error", "reason": "Result file not found"}), 500
+            return jsonify({"status": "error", "reason": "Result file not found"}), 200
 
 
 @webserver.route('/api/states_mean', methods=['POST'])
