@@ -33,4 +33,6 @@ webserver.tasks_runner = ThreadPool(webserver.logger, webserver.data_ingestor)
 # Job counter
 webserver.job_counter = 1
 
+#print(webserver.data_ingestor.get_states_mean('Percent of adults aged 18 years and older who have an overweight classification'))
+
 from app import routes

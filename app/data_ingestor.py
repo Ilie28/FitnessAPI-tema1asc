@@ -42,3 +42,4 @@ class DataIngestor:
         if state:
             df = df[df['LocationDesc'] == state]
         return df.groupby(['StratificationCategory1', 'Stratification1'])['Data_Value'].mean().to_dict()
+
