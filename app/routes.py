@@ -94,7 +94,7 @@ def best5_request():
             best = dict(sorted(state_means.items(), key=lambda item: item[1])[:5])
         else:
             best = dict(sorted(state_means.items(), key=lambda item: item[1], reverse=True)[:5])
-        return {"status": "done", "data": best}
+        return best
 
     res = webserver.tasks_runner.add_task(job_id, job)
 
@@ -117,7 +117,7 @@ def worst5_request():
             worst = dict(sorted(state_means.items(), key=lambda item: item[1], reverse=True)[:5])
         else:
             worst = dict(sorted(state_means.items(), key=lambda item: item[1])[:5])
-        return {"status": "done", "data": worst}
+        return worst
 
     res = webserver.tasks_runner.add_task(job_id, job)
 
@@ -209,7 +209,7 @@ def state_mean_by_category_request():
 
     def job():
         result = webserver.data_ingestor.get_mean_by_category(question, state=state)
-        return result
+        return {"status": "done", "data": result}
 
     res = webserver.tasks_runner.add_task(job_id, job)
     if res == -1:

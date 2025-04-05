@@ -4145,3 +4145,865 @@ TypeError: The view function for 'worst5_request' did not return a valid respons
 2025-04-05 14:58:02,565 - INFO - job_id_112 finished and saved to disk.
 2025-04-05 14:58:02,782 - INFO - job_id_113 finished and saved to disk.
 2025-04-05 14:58:03,115 - INFO - job_id_114 finished and saved to disk.
+2025-04-05 15:02:15,015 - INFO - job_id_115 finished and saved to disk.
+2025-04-05 15:02:15,230 - INFO - job_id_116 finished and saved to disk.
+2025-04-05 15:02:15,442 - INFO - job_id_117 finished and saved to disk.
+2025-04-05 15:02:15,651 - INFO - job_id_118 finished and saved to disk.
+2025-04-05 15:02:15,863 - INFO - job_id_119 finished and saved to disk.
+2025-04-05 15:02:15,881 - INFO - job_id_120 finished and saved to disk.
+2025-04-05 15:02:16,091 - INFO - job_id_121 finished and saved to disk.
+2025-04-05 15:02:16,300 - INFO - job_id_122 finished and saved to disk.
+2025-04-05 15:02:16,512 - INFO - job_id_123 finished and saved to disk.
+2025-04-05 15:02:17,823 - INFO - job_id_124 finished and saved to disk.
+2025-04-05 15:02:18,034 - INFO - job_id_125 finished and saved to disk.
+2025-04-05 15:02:18,244 - INFO - job_id_126 finished and saved to disk.
+2025-04-05 15:02:18,458 - INFO - job_id_127 finished and saved to disk.
+2025-04-05 15:02:18,667 - INFO - job_id_128 finished and saved to disk.
+2025-04-05 15:02:18,884 - INFO - job_id_129 finished and saved to disk.
+2025-04-05 15:02:19,093 - INFO - job_id_130 finished and saved to disk.
+2025-04-05 15:02:19,302 - INFO - job_id_131 finished and saved to disk.
+2025-04-05 15:02:19,515 - INFO - job_id_132 finished and saved to disk.
+2025-04-05 15:02:19,726 - INFO - job_id_133 finished and saved to disk.
+2025-04-05 15:02:19,939 - INFO - job_id_134 finished and saved to disk.
+2025-04-05 15:02:20,145 - INFO - job_id_135 finished and saved to disk.
+2025-04-05 15:02:20,355 - INFO - job_id_136 finished and saved to disk.
+2025-04-05 15:02:20,565 - INFO - job_id_137 finished and saved to disk.
+2025-04-05 15:02:20,777 - INFO - job_id_138 finished and saved to disk.
+2025-04-05 15:02:20,986 - INFO - job_id_139 finished and saved to disk.
+2025-04-05 15:02:21,196 - INFO - job_id_140 finished and saved to disk.
+2025-04-05 15:02:21,208 - INFO - job_id_141 finished and saved to disk.
+2025-04-05 15:02:21,428 - ERROR - Error in job job_id_142: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:21,638 - ERROR - Error in job job_id_143: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:21,855 - ERROR - Error in job job_id_144: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:22,063 - ERROR - Error in job job_id_145: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:22,282 - ERROR - Error in job job_id_146: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:22,490 - ERROR - Error in job job_id_147: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:22,703 - ERROR - Error in job job_id_148: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:22,918 - ERROR - Error in job job_id_149: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:23,146 - ERROR - Error in job job_id_150: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:23,357 - INFO - job_id_151 finished and saved to disk.
+2025-04-05 15:02:23,569 - INFO - job_id_152 finished and saved to disk.
+2025-04-05 15:02:23,778 - INFO - job_id_153 finished and saved to disk.
+2025-04-05 15:02:23,988 - INFO - job_id_154 finished and saved to disk.
+2025-04-05 15:02:24,199 - INFO - job_id_155 finished and saved to disk.
+2025-04-05 15:02:24,407 - INFO - job_id_156 finished and saved to disk.
+2025-04-05 15:02:24,615 - INFO - job_id_157 finished and saved to disk.
+2025-04-05 15:02:24,833 - INFO - job_id_158 finished and saved to disk.
+2025-04-05 15:02:25,042 - INFO - job_id_159 finished and saved to disk.
+2025-04-05 15:02:25,253 - INFO - job_id_160 finished and saved to disk.
+2025-04-05 15:02:25,461 - INFO - job_id_161 finished and saved to disk.
+2025-04-05 15:02:25,670 - INFO - job_id_162 finished and saved to disk.
+2025-04-05 15:02:25,881 - INFO - job_id_163 finished and saved to disk.
+2025-04-05 15:02:26,091 - INFO - job_id_164 finished and saved to disk.
+2025-04-05 15:02:26,349 - INFO - job_id_165 finished and saved to disk.
+2025-04-05 15:02:26,559 - INFO - job_id_166 finished and saved to disk.
+2025-04-05 15:02:26,769 - INFO - job_id_167 finished and saved to disk.
+2025-04-05 15:02:26,979 - INFO - job_id_168 finished and saved to disk.
+2025-04-05 15:02:27,189 - INFO - job_id_169 finished and saved to disk.
+2025-04-05 15:02:27,400 - INFO - job_id_170 finished and saved to disk.
+2025-04-05 15:02:27,604 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Wyoming => job_id_171
+2025-04-05 15:02:27,606 - INFO - job_id_171 finished and saved to disk.
+2025-04-05 15:02:27,812 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Connecticut => job_id_172
+2025-04-05 15:02:27,816 - INFO - job_id_172 finished and saved to disk.
+2025-04-05 15:02:28,027 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Colorado => job_id_173
+2025-04-05 15:02:28,032 - INFO - job_id_173 finished and saved to disk.
+2025-04-05 15:02:28,238 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Oregon => job_id_174
+2025-04-05 15:02:28,241 - INFO - job_id_174 finished and saved to disk.
+2025-04-05 15:02:28,449 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Wyoming => job_id_175
+2025-04-05 15:02:28,452 - INFO - job_id_175 finished and saved to disk.
+2025-04-05 15:02:28,458 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Connecticut => job_id_176
+2025-04-05 15:02:28,461 - INFO - job_id_176 finished and saved to disk.
+2025-04-05 15:02:28,668 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Colorado => job_id_177
+2025-04-05 15:02:28,672 - INFO - job_id_177 finished and saved to disk.
+2025-04-05 15:02:28,877 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Oregon => job_id_178
+2025-04-05 15:02:28,884 - INFO - job_id_178 finished and saved to disk.
+2025-04-05 15:02:29,089 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Wyoming => job_id_179
+2025-04-05 15:02:29,092 - INFO - job_id_179 finished and saved to disk.
+2025-04-05 15:02:29,304 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Connecticut => job_id_180
+2025-04-05 15:02:29,309 - INFO - job_id_180 finished and saved to disk.
+2025-04-05 15:02:29,513 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Colorado => job_id_181
+2025-04-05 15:02:29,517 - INFO - job_id_181 finished and saved to disk.
+2025-04-05 15:02:29,724 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Connecticut => job_id_182
+2025-04-05 15:02:29,728 - INFO - job_id_182 finished and saved to disk.
+2025-04-05 15:02:29,939 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Oregon => job_id_183
+2025-04-05 15:02:29,942 - INFO - job_id_183 finished and saved to disk.
+2025-04-05 15:02:30,149 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Colorado => job_id_184
+2025-04-05 15:02:30,152 - INFO - job_id_184 finished and saved to disk.
+2025-04-05 15:02:30,360 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Oregon => job_id_185
+2025-04-05 15:02:30,364 - INFO - job_id_185 finished and saved to disk.
+2025-04-05 15:02:30,570 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Wyoming => job_id_186
+2025-04-05 15:02:30,575 - INFO - job_id_186 finished and saved to disk.
+2025-04-05 15:02:30,779 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Connecticut => job_id_187
+2025-04-05 15:02:30,783 - INFO - job_id_187 finished and saved to disk.
+2025-04-05 15:02:30,989 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Colorado => job_id_188
+2025-04-05 15:02:30,996 - INFO - job_id_188 finished and saved to disk.
+2025-04-05 15:02:31,202 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Oregon => job_id_189
+2025-04-05 15:02:31,208 - INFO - job_id_189 finished and saved to disk.
+2025-04-05 15:02:31,412 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Wyoming => job_id_190
+2025-04-05 15:02:31,416 - INFO - job_id_190 finished and saved to disk.
+2025-04-05 15:02:31,628 - ERROR - Error in job job_id_191: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:31,837 - ERROR - Error in job job_id_192: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:32,049 - ERROR - Error in job job_id_193: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:32,259 - ERROR - Error in job job_id_194: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:32,469 - ERROR - Error in job job_id_195: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:32,681 - ERROR - Error in job job_id_196: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:32,894 - ERROR - Error in job job_id_197: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:33,109 - ERROR - Error in job job_id_198: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:33,324 - ERROR - Error in job job_id_199: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:33,537 - ERROR - Error in job job_id_200: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:33,750 - ERROR - Error in job job_id_201: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:33,964 - ERROR - Error in job job_id_202: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:34,173 - ERROR - Error in job job_id_203: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:34,387 - ERROR - Error in job job_id_204: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:34,593 - ERROR - Error in job job_id_205: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:34,804 - ERROR - Error in job job_id_206: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:35,017 - ERROR - Error in job job_id_207: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:35,233 - ERROR - Error in job job_id_208: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:35,443 - ERROR - Error in job job_id_209: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:35,728 - ERROR - Error in job job_id_210: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:02:35,920 - INFO - Received request for states_mean: Percent of adults aged 18 years and older who have an overweight classification => job_id_211
+2025-04-05 15:02:35,925 - INFO - job_id_211 finished and saved to disk.
+2025-04-05 15:02:36,130 - INFO - Received request for states_mean: Percent of adults aged 18 years and older who have obesity => job_id_212
+2025-04-05 15:02:36,136 - INFO - job_id_212 finished and saved to disk.
+2025-04-05 15:02:36,341 - INFO - Received request for states_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_213
+2025-04-05 15:02:36,344 - INFO - job_id_213 finished and saved to disk.
+2025-04-05 15:02:36,551 - INFO - Received request for states_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week => job_id_214
+2025-04-05 15:02:36,555 - INFO - job_id_214 finished and saved to disk.
+2025-04-05 15:02:36,763 - INFO - Received request for states_mean: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_215
+2025-04-05 15:02:36,767 - INFO - job_id_215 finished and saved to disk.
+2025-04-05 15:02:36,976 - INFO - Received request for states_mean: Percent of adults who engage in muscle-strengthening activities on 2 or more days a week => job_id_216
+2025-04-05 15:02:36,980 - INFO - job_id_216 finished and saved to disk.
+2025-04-05 15:02:37,187 - INFO - Received request for states_mean: Percent of adults who engage in no leisure-time physical activity => job_id_217
+2025-04-05 15:02:37,191 - INFO - job_id_217 finished and saved to disk.
+2025-04-05 15:02:37,400 - INFO - Received request for states_mean: Percent of adults who report consuming fruit less than one time daily => job_id_218
+2025-04-05 15:02:37,403 - INFO - job_id_218 finished and saved to disk.
+2025-04-05 15:02:37,613 - INFO - Received request for states_mean: Percent of adults who report consuming vegetables less than one time daily => job_id_219
+2025-04-05 15:02:37,618 - INFO - job_id_219 finished and saved to disk.
+2025-04-05 15:02:37,831 - INFO - job_id_220 finished and saved to disk.
+2025-04-05 15:02:38,043 - INFO - job_id_221 finished and saved to disk.
+2025-04-05 15:02:38,251 - INFO - job_id_222 finished and saved to disk.
+2025-04-05 15:02:38,532 - INFO - job_id_223 finished and saved to disk.
+2025-04-05 15:02:38,741 - INFO - job_id_224 finished and saved to disk.
+2025-04-05 15:02:38,956 - INFO - job_id_225 finished and saved to disk.
+2025-04-05 15:02:39,169 - INFO - job_id_226 finished and saved to disk.
+2025-04-05 15:02:39,378 - INFO - job_id_227 finished and saved to disk.
+2025-04-05 15:02:39,591 - INFO - job_id_228 finished and saved to disk.
+2025-04-05 15:19:59,510 - INFO - Thread pool initialized with 24 threads.
+2025-04-05 15:20:12,955 - INFO - job_id_1 finished and saved to disk.
+2025-04-05 15:20:13,171 - INFO - job_id_2 finished and saved to disk.
+2025-04-05 15:20:13,376 - INFO - job_id_3 finished and saved to disk.
+2025-04-05 15:20:13,583 - INFO - job_id_4 finished and saved to disk.
+2025-04-05 15:20:13,795 - INFO - job_id_5 finished and saved to disk.
+2025-04-05 15:20:14,006 - INFO - job_id_6 finished and saved to disk.
+2025-04-05 15:20:14,214 - INFO - job_id_7 finished and saved to disk.
+2025-04-05 15:20:14,429 - INFO - job_id_8 finished and saved to disk.
+2025-04-05 15:20:14,693 - INFO - job_id_9 finished and saved to disk.
+2025-04-05 15:20:16,150 - INFO - job_id_10 finished and saved to disk.
+2025-04-05 15:20:16,365 - INFO - job_id_11 finished and saved to disk.
+2025-04-05 15:20:16,570 - INFO - job_id_12 finished and saved to disk.
+2025-04-05 15:20:16,785 - INFO - job_id_13 finished and saved to disk.
+2025-04-05 15:20:17,001 - INFO - job_id_14 finished and saved to disk.
+2025-04-05 15:20:17,210 - INFO - job_id_15 finished and saved to disk.
+2025-04-05 15:20:17,425 - INFO - job_id_16 finished and saved to disk.
+2025-04-05 15:20:17,634 - INFO - job_id_17 finished and saved to disk.
+2025-04-05 15:20:17,844 - INFO - job_id_18 finished and saved to disk.
+2025-04-05 15:20:18,056 - INFO - job_id_19 finished and saved to disk.
+2025-04-05 15:20:18,270 - INFO - job_id_20 finished and saved to disk.
+2025-04-05 15:20:18,480 - INFO - job_id_21 finished and saved to disk.
+2025-04-05 15:20:18,685 - INFO - job_id_22 finished and saved to disk.
+2025-04-05 15:20:18,895 - INFO - job_id_23 finished and saved to disk.
+2025-04-05 15:20:19,107 - INFO - job_id_24 finished and saved to disk.
+2025-04-05 15:20:19,313 - INFO - job_id_25 finished and saved to disk.
+2025-04-05 15:20:19,524 - INFO - job_id_26 finished and saved to disk.
+2025-04-05 15:20:19,734 - INFO - job_id_27 finished and saved to disk.
+2025-04-05 15:20:19,947 - ERROR - Error in job job_id_28: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:20,159 - ERROR - Error in job job_id_29: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:20,368 - ERROR - Error in job job_id_30: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:20,582 - ERROR - Error in job job_id_31: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:20,797 - ERROR - Error in job job_id_32: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:21,011 - ERROR - Error in job job_id_33: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:21,230 - ERROR - Error in job job_id_34: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:21,442 - ERROR - Error in job job_id_35: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:21,654 - ERROR - Error in job job_id_36: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:21,867 - INFO - job_id_37 finished and saved to disk.
+2025-04-05 15:20:22,077 - INFO - job_id_38 finished and saved to disk.
+2025-04-05 15:20:22,291 - INFO - job_id_39 finished and saved to disk.
+2025-04-05 15:20:22,500 - INFO - job_id_40 finished and saved to disk.
+2025-04-05 15:20:22,710 - INFO - job_id_41 finished and saved to disk.
+2025-04-05 15:20:22,924 - INFO - job_id_42 finished and saved to disk.
+2025-04-05 15:20:23,131 - INFO - job_id_43 finished and saved to disk.
+2025-04-05 15:20:23,344 - INFO - job_id_44 finished and saved to disk.
+2025-04-05 15:20:23,551 - INFO - job_id_45 finished and saved to disk.
+2025-04-05 15:20:23,760 - INFO - job_id_46 finished and saved to disk.
+2025-04-05 15:20:23,970 - INFO - job_id_47 finished and saved to disk.
+2025-04-05 15:20:24,185 - INFO - job_id_48 finished and saved to disk.
+2025-04-05 15:20:24,395 - INFO - job_id_49 finished and saved to disk.
+2025-04-05 15:20:24,605 - INFO - job_id_50 finished and saved to disk.
+2025-04-05 15:20:24,820 - INFO - job_id_51 finished and saved to disk.
+2025-04-05 15:20:25,072 - INFO - job_id_52 finished and saved to disk.
+2025-04-05 15:20:25,274 - INFO - job_id_53 finished and saved to disk.
+2025-04-05 15:20:25,480 - INFO - job_id_54 finished and saved to disk.
+2025-04-05 15:20:25,693 - INFO - job_id_55 finished and saved to disk.
+2025-04-05 15:20:25,904 - INFO - job_id_56 finished and saved to disk.
+2025-04-05 15:20:26,110 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Wyoming => job_id_57
+2025-04-05 15:20:26,116 - INFO - job_id_57 finished and saved to disk.
+2025-04-05 15:20:26,320 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Connecticut => job_id_58
+2025-04-05 15:20:26,325 - INFO - job_id_58 finished and saved to disk.
+2025-04-05 15:20:26,532 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Colorado => job_id_59
+2025-04-05 15:20:26,536 - INFO - job_id_59 finished and saved to disk.
+2025-04-05 15:20:26,741 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Oregon => job_id_60
+2025-04-05 15:20:26,747 - INFO - job_id_60 finished and saved to disk.
+2025-04-05 15:20:26,951 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Wyoming => job_id_61
+2025-04-05 15:20:26,954 - INFO - job_id_61 finished and saved to disk.
+2025-04-05 15:20:27,161 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Connecticut => job_id_62
+2025-04-05 15:20:27,164 - INFO - job_id_62 finished and saved to disk.
+2025-04-05 15:20:27,370 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Colorado => job_id_63
+2025-04-05 15:20:27,376 - INFO - job_id_63 finished and saved to disk.
+2025-04-05 15:20:27,582 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Oregon => job_id_64
+2025-04-05 15:20:27,588 - INFO - job_id_64 finished and saved to disk.
+2025-04-05 15:20:27,793 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Wyoming => job_id_65
+2025-04-05 15:20:27,796 - INFO - job_id_65 finished and saved to disk.
+2025-04-05 15:20:28,018 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Connecticut => job_id_66
+2025-04-05 15:20:28,022 - INFO - job_id_66 finished and saved to disk.
+2025-04-05 15:20:28,228 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Colorado => job_id_67
+2025-04-05 15:20:28,232 - INFO - job_id_67 finished and saved to disk.
+2025-04-05 15:20:28,438 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Connecticut => job_id_68
+2025-04-05 15:20:28,445 - INFO - job_id_68 finished and saved to disk.
+2025-04-05 15:20:28,652 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Oregon => job_id_69
+2025-04-05 15:20:28,658 - INFO - job_id_69 finished and saved to disk.
+2025-04-05 15:20:28,866 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Colorado => job_id_70
+2025-04-05 15:20:28,870 - INFO - job_id_70 finished and saved to disk.
+2025-04-05 15:20:29,078 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Oregon => job_id_71
+2025-04-05 15:20:29,083 - INFO - job_id_71 finished and saved to disk.
+2025-04-05 15:20:29,289 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Wyoming => job_id_72
+2025-04-05 15:20:29,294 - INFO - job_id_72 finished and saved to disk.
+2025-04-05 15:20:29,502 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Connecticut => job_id_73
+2025-04-05 15:20:29,513 - INFO - job_id_73 finished and saved to disk.
+2025-04-05 15:20:29,718 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Colorado => job_id_74
+2025-04-05 15:20:29,721 - INFO - job_id_74 finished and saved to disk.
+2025-04-05 15:20:29,933 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Oregon => job_id_75
+2025-04-05 15:20:29,939 - INFO - job_id_75 finished and saved to disk.
+2025-04-05 15:20:30,144 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Wyoming => job_id_76
+2025-04-05 15:20:30,148 - INFO - job_id_76 finished and saved to disk.
+2025-04-05 15:20:30,360 - ERROR - Error in job job_id_77: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:30,567 - ERROR - Error in job job_id_78: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:30,777 - ERROR - Error in job job_id_79: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:30,995 - ERROR - Error in job job_id_80: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:31,202 - ERROR - Error in job job_id_81: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:31,439 - ERROR - Error in job job_id_82: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:31,655 - ERROR - Error in job job_id_83: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:31,884 - ERROR - Error in job job_id_84: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:32,093 - ERROR - Error in job job_id_85: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:32,306 - ERROR - Error in job job_id_86: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:32,518 - ERROR - Error in job job_id_87: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:32,731 - ERROR - Error in job job_id_88: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:32,942 - ERROR - Error in job job_id_89: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:33,154 - ERROR - Error in job job_id_90: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:33,368 - ERROR - Error in job job_id_91: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:33,580 - ERROR - Error in job job_id_92: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:33,790 - ERROR - Error in job job_id_93: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:33,999 - ERROR - Error in job job_id_94: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:34,210 - ERROR - Error in job job_id_95: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:34,423 - ERROR - Error in job job_id_96: keys must be str, int, float, bool or None, not tuple
+2025-04-05 15:20:34,628 - INFO - Received request for states_mean: Percent of adults aged 18 years and older who have an overweight classification => job_id_97
+2025-04-05 15:20:34,631 - INFO - job_id_97 finished and saved to disk.
+2025-04-05 15:20:34,839 - INFO - Received request for states_mean: Percent of adults aged 18 years and older who have obesity => job_id_98
+2025-04-05 15:20:34,844 - INFO - job_id_98 finished and saved to disk.
+2025-04-05 15:20:35,050 - INFO - Received request for states_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_99
+2025-04-05 15:20:35,055 - INFO - job_id_99 finished and saved to disk.
+2025-04-05 15:20:35,260 - INFO - Received request for states_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week => job_id_100
+2025-04-05 15:20:35,264 - INFO - job_id_100 finished and saved to disk.
+2025-04-05 15:20:35,471 - INFO - Received request for states_mean: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_101
+2025-04-05 15:20:35,477 - INFO - job_id_101 finished and saved to disk.
+2025-04-05 15:20:35,684 - INFO - Received request for states_mean: Percent of adults who engage in muscle-strengthening activities on 2 or more days a week => job_id_102
+2025-04-05 15:20:35,689 - INFO - job_id_102 finished and saved to disk.
+2025-04-05 15:20:35,894 - INFO - Received request for states_mean: Percent of adults who engage in no leisure-time physical activity => job_id_103
+2025-04-05 15:20:35,898 - INFO - job_id_103 finished and saved to disk.
+2025-04-05 15:20:36,104 - INFO - Received request for states_mean: Percent of adults who report consuming fruit less than one time daily => job_id_104
+2025-04-05 15:20:36,108 - INFO - job_id_104 finished and saved to disk.
+2025-04-05 15:20:36,316 - INFO - Received request for states_mean: Percent of adults who report consuming vegetables less than one time daily => job_id_105
+2025-04-05 15:20:36,322 - INFO - job_id_105 finished and saved to disk.
+2025-04-05 15:20:36,535 - INFO - job_id_106 finished and saved to disk.
+2025-04-05 15:20:36,747 - INFO - job_id_107 finished and saved to disk.
+2025-04-05 15:20:36,960 - INFO - job_id_108 finished and saved to disk.
+2025-04-05 15:20:37,170 - INFO - job_id_109 finished and saved to disk.
+2025-04-05 15:20:37,388 - INFO - job_id_110 finished and saved to disk.
+2025-04-05 15:20:37,597 - INFO - job_id_111 finished and saved to disk.
+2025-04-05 15:20:37,809 - INFO - job_id_112 finished and saved to disk.
+2025-04-05 15:20:38,022 - INFO - job_id_113 finished and saved to disk.
+2025-04-05 15:20:38,231 - INFO - job_id_114 finished and saved to disk.
+2025-04-05 21:40:21,062 - INFO - Thread pool initialized with 24 threads.
+2025-04-05 21:40:35,415 - INFO - job_id_1 finished and saved to disk.
+2025-04-05 21:40:35,636 - INFO - job_id_2 finished and saved to disk.
+2025-04-05 21:40:35,868 - INFO - job_id_3 finished and saved to disk.
+2025-04-05 21:40:36,112 - INFO - job_id_4 finished and saved to disk.
+2025-04-05 21:40:36,337 - INFO - job_id_5 finished and saved to disk.
+2025-04-05 21:40:36,577 - INFO - job_id_6 finished and saved to disk.
+2025-04-05 21:40:36,786 - INFO - job_id_7 finished and saved to disk.
+2025-04-05 21:40:37,009 - INFO - job_id_8 finished and saved to disk.
+2025-04-05 21:40:37,230 - INFO - job_id_9 finished and saved to disk.
+2025-04-05 21:40:38,757 - INFO - job_id_10 finished and saved to disk.
+2025-04-05 21:40:38,981 - INFO - job_id_11 finished and saved to disk.
+2025-04-05 21:40:39,205 - INFO - job_id_12 finished and saved to disk.
+2025-04-05 21:40:39,422 - INFO - job_id_13 finished and saved to disk.
+2025-04-05 21:40:39,645 - INFO - job_id_14 finished and saved to disk.
+2025-04-05 21:40:39,878 - INFO - job_id_15 finished and saved to disk.
+2025-04-05 21:40:40,104 - INFO - job_id_16 finished and saved to disk.
+2025-04-05 21:40:40,326 - INFO - job_id_17 finished and saved to disk.
+2025-04-05 21:40:40,552 - INFO - job_id_18 finished and saved to disk.
+2025-04-05 21:40:40,768 - INFO - job_id_19 finished and saved to disk.
+2025-04-05 21:40:40,988 - INFO - job_id_20 finished and saved to disk.
+2025-04-05 21:40:41,202 - INFO - job_id_21 finished and saved to disk.
+2025-04-05 21:40:41,425 - INFO - job_id_22 finished and saved to disk.
+2025-04-05 21:40:41,651 - INFO - job_id_23 finished and saved to disk.
+2025-04-05 21:40:41,879 - INFO - job_id_24 finished and saved to disk.
+2025-04-05 21:40:42,096 - INFO - job_id_25 finished and saved to disk.
+2025-04-05 21:40:42,314 - INFO - job_id_26 finished and saved to disk.
+2025-04-05 21:40:42,531 - INFO - job_id_27 finished and saved to disk.
+2025-04-05 21:40:42,754 - ERROR - Error in job job_id_28: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:43,041 - ERROR - Error in job job_id_29: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:43,252 - ERROR - Error in job job_id_30: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:43,475 - ERROR - Error in job job_id_31: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:43,695 - ERROR - Error in job job_id_32: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:43,914 - ERROR - Error in job job_id_33: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:44,134 - ERROR - Error in job job_id_34: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:44,351 - ERROR - Error in job job_id_35: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:44,571 - ERROR - Error in job job_id_36: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:44,795 - INFO - job_id_37 finished and saved to disk.
+2025-04-05 21:40:45,013 - INFO - job_id_38 finished and saved to disk.
+2025-04-05 21:40:45,239 - INFO - job_id_39 finished and saved to disk.
+2025-04-05 21:40:45,465 - INFO - job_id_40 finished and saved to disk.
+2025-04-05 21:40:45,690 - INFO - job_id_41 finished and saved to disk.
+2025-04-05 21:40:45,911 - INFO - job_id_42 finished and saved to disk.
+2025-04-05 21:40:46,129 - INFO - job_id_43 finished and saved to disk.
+2025-04-05 21:40:46,351 - INFO - job_id_44 finished and saved to disk.
+2025-04-05 21:40:46,577 - INFO - job_id_45 finished and saved to disk.
+2025-04-05 21:40:46,797 - INFO - job_id_46 finished and saved to disk.
+2025-04-05 21:40:47,021 - INFO - job_id_47 finished and saved to disk.
+2025-04-05 21:40:47,237 - INFO - job_id_48 finished and saved to disk.
+2025-04-05 21:40:47,456 - INFO - job_id_49 finished and saved to disk.
+2025-04-05 21:40:47,678 - INFO - job_id_50 finished and saved to disk.
+2025-04-05 21:40:47,898 - INFO - job_id_51 finished and saved to disk.
+2025-04-05 21:40:48,118 - INFO - job_id_52 finished and saved to disk.
+2025-04-05 21:40:48,329 - INFO - job_id_53 finished and saved to disk.
+2025-04-05 21:40:48,551 - INFO - job_id_54 finished and saved to disk.
+2025-04-05 21:40:48,757 - INFO - job_id_55 finished and saved to disk.
+2025-04-05 21:40:48,969 - INFO - job_id_56 finished and saved to disk.
+2025-04-05 21:40:49,184 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Wyoming => job_id_57
+2025-04-05 21:40:49,192 - INFO - job_id_57 finished and saved to disk.
+2025-04-05 21:40:49,408 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Connecticut => job_id_58
+2025-04-05 21:40:49,411 - INFO - job_id_58 finished and saved to disk.
+2025-04-05 21:40:49,631 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Colorado => job_id_59
+2025-04-05 21:40:49,635 - INFO - job_id_59 finished and saved to disk.
+2025-04-05 21:40:49,860 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Oregon => job_id_60
+2025-04-05 21:40:49,864 - INFO - job_id_60 finished and saved to disk.
+2025-04-05 21:40:50,080 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Wyoming => job_id_61
+2025-04-05 21:40:50,084 - INFO - job_id_61 finished and saved to disk.
+2025-04-05 21:40:50,301 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Connecticut => job_id_62
+2025-04-05 21:40:50,305 - INFO - job_id_62 finished and saved to disk.
+2025-04-05 21:40:50,531 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Colorado => job_id_63
+2025-04-05 21:40:50,537 - INFO - job_id_63 finished and saved to disk.
+2025-04-05 21:40:50,754 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Oregon => job_id_64
+2025-04-05 21:40:50,757 - INFO - job_id_64 finished and saved to disk.
+2025-04-05 21:40:50,977 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Wyoming => job_id_65
+2025-04-05 21:40:50,982 - INFO - job_id_65 finished and saved to disk.
+2025-04-05 21:40:51,200 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Connecticut => job_id_66
+2025-04-05 21:40:51,204 - INFO - job_id_66 finished and saved to disk.
+2025-04-05 21:40:51,425 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Colorado => job_id_67
+2025-04-05 21:40:51,429 - INFO - job_id_67 finished and saved to disk.
+2025-04-05 21:40:51,644 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Connecticut => job_id_68
+2025-04-05 21:40:51,647 - INFO - job_id_68 finished and saved to disk.
+2025-04-05 21:40:51,862 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Oregon => job_id_69
+2025-04-05 21:40:51,865 - INFO - job_id_69 finished and saved to disk.
+2025-04-05 21:40:51,881 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Colorado => job_id_70
+2025-04-05 21:40:51,884 - INFO - job_id_70 finished and saved to disk.
+2025-04-05 21:40:52,104 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Oregon => job_id_71
+2025-04-05 21:40:52,109 - INFO - job_id_71 finished and saved to disk.
+2025-04-05 21:40:52,322 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Wyoming => job_id_72
+2025-04-05 21:40:52,327 - INFO - job_id_72 finished and saved to disk.
+2025-04-05 21:40:52,547 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Connecticut => job_id_73
+2025-04-05 21:40:52,552 - INFO - job_id_73 finished and saved to disk.
+2025-04-05 21:40:52,768 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Colorado => job_id_74
+2025-04-05 21:40:52,772 - INFO - job_id_74 finished and saved to disk.
+2025-04-05 21:40:52,990 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Oregon => job_id_75
+2025-04-05 21:40:52,994 - INFO - job_id_75 finished and saved to disk.
+2025-04-05 21:40:53,264 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Wyoming => job_id_76
+2025-04-05 21:40:53,267 - INFO - job_id_76 finished and saved to disk.
+2025-04-05 21:40:53,493 - ERROR - Error in job job_id_77: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:53,718 - ERROR - Error in job job_id_78: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:53,941 - ERROR - Error in job job_id_79: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:54,166 - ERROR - Error in job job_id_80: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:54,381 - ERROR - Error in job job_id_81: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:54,605 - ERROR - Error in job job_id_82: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:54,826 - ERROR - Error in job job_id_83: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:55,059 - ERROR - Error in job job_id_84: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:55,280 - ERROR - Error in job job_id_85: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:55,504 - ERROR - Error in job job_id_86: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:55,729 - ERROR - Error in job job_id_87: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:55,949 - ERROR - Error in job job_id_88: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:56,171 - ERROR - Error in job job_id_89: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:56,388 - ERROR - Error in job job_id_90: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:56,607 - ERROR - Error in job job_id_91: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:56,819 - ERROR - Error in job job_id_92: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:57,040 - ERROR - Error in job job_id_93: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:57,258 - ERROR - Error in job job_id_94: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:57,482 - ERROR - Error in job job_id_95: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:57,707 - ERROR - Error in job job_id_96: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:40:57,920 - INFO - Received request for states_mean: Percent of adults aged 18 years and older who have an overweight classification => job_id_97
+2025-04-05 21:40:57,924 - INFO - job_id_97 finished and saved to disk.
+2025-04-05 21:40:58,140 - INFO - Received request for states_mean: Percent of adults aged 18 years and older who have obesity => job_id_98
+2025-04-05 21:40:58,144 - INFO - job_id_98 finished and saved to disk.
+2025-04-05 21:40:58,357 - INFO - Received request for states_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_99
+2025-04-05 21:40:58,363 - INFO - job_id_99 finished and saved to disk.
+2025-04-05 21:40:58,580 - INFO - Received request for states_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week => job_id_100
+2025-04-05 21:40:58,590 - INFO - job_id_100 finished and saved to disk.
+2025-04-05 21:40:58,804 - INFO - Received request for states_mean: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_101
+2025-04-05 21:40:58,808 - INFO - job_id_101 finished and saved to disk.
+2025-04-05 21:40:59,020 - INFO - Received request for states_mean: Percent of adults who engage in muscle-strengthening activities on 2 or more days a week => job_id_102
+2025-04-05 21:40:59,025 - INFO - job_id_102 finished and saved to disk.
+2025-04-05 21:40:59,242 - INFO - Received request for states_mean: Percent of adults who engage in no leisure-time physical activity => job_id_103
+2025-04-05 21:40:59,248 - INFO - job_id_103 finished and saved to disk.
+2025-04-05 21:40:59,460 - INFO - Received request for states_mean: Percent of adults who report consuming fruit less than one time daily => job_id_104
+2025-04-05 21:40:59,465 - INFO - job_id_104 finished and saved to disk.
+2025-04-05 21:40:59,681 - INFO - Received request for states_mean: Percent of adults who report consuming vegetables less than one time daily => job_id_105
+2025-04-05 21:40:59,686 - INFO - job_id_105 finished and saved to disk.
+2025-04-05 21:40:59,915 - INFO - job_id_106 finished and saved to disk.
+2025-04-05 21:41:00,135 - INFO - job_id_107 finished and saved to disk.
+2025-04-05 21:41:00,348 - INFO - job_id_108 finished and saved to disk.
+2025-04-05 21:41:00,567 - INFO - job_id_109 finished and saved to disk.
+2025-04-05 21:41:00,787 - INFO - job_id_110 finished and saved to disk.
+2025-04-05 21:41:01,008 - INFO - job_id_111 finished and saved to disk.
+2025-04-05 21:41:01,233 - INFO - job_id_112 finished and saved to disk.
+2025-04-05 21:41:01,469 - INFO - job_id_113 finished and saved to disk.
+2025-04-05 21:41:01,691 - INFO - job_id_114 finished and saved to disk.
+2025-04-05 21:41:25,767 - INFO - job_id_115 finished and saved to disk.
+2025-04-05 21:41:25,980 - INFO - job_id_116 finished and saved to disk.
+2025-04-05 21:41:26,190 - INFO - job_id_117 finished and saved to disk.
+2025-04-05 21:41:26,400 - INFO - job_id_118 finished and saved to disk.
+2025-04-05 21:41:26,613 - INFO - job_id_119 finished and saved to disk.
+2025-04-05 21:41:26,821 - INFO - job_id_120 finished and saved to disk.
+2025-04-05 21:41:27,032 - INFO - job_id_121 finished and saved to disk.
+2025-04-05 21:41:27,251 - INFO - job_id_122 finished and saved to disk.
+2025-04-05 21:41:27,457 - INFO - job_id_123 finished and saved to disk.
+2025-04-05 21:41:28,791 - INFO - job_id_124 finished and saved to disk.
+2025-04-05 21:41:29,003 - INFO - job_id_125 finished and saved to disk.
+2025-04-05 21:41:29,214 - INFO - job_id_126 finished and saved to disk.
+2025-04-05 21:41:29,426 - INFO - job_id_127 finished and saved to disk.
+2025-04-05 21:41:29,636 - INFO - job_id_128 finished and saved to disk.
+2025-04-05 21:41:29,848 - INFO - job_id_129 finished and saved to disk.
+2025-04-05 21:41:30,061 - INFO - job_id_130 finished and saved to disk.
+2025-04-05 21:41:30,277 - INFO - job_id_131 finished and saved to disk.
+2025-04-05 21:41:30,493 - INFO - job_id_132 finished and saved to disk.
+2025-04-05 21:41:30,701 - INFO - job_id_133 finished and saved to disk.
+2025-04-05 21:41:30,916 - INFO - job_id_134 finished and saved to disk.
+2025-04-05 21:41:31,119 - INFO - job_id_135 finished and saved to disk.
+2025-04-05 21:41:31,331 - INFO - job_id_136 finished and saved to disk.
+2025-04-05 21:41:31,544 - INFO - job_id_137 finished and saved to disk.
+2025-04-05 21:41:31,751 - INFO - job_id_138 finished and saved to disk.
+2025-04-05 21:41:31,961 - INFO - job_id_139 finished and saved to disk.
+2025-04-05 21:41:32,175 - INFO - job_id_140 finished and saved to disk.
+2025-04-05 21:41:32,384 - INFO - job_id_141 finished and saved to disk.
+2025-04-05 21:41:32,599 - ERROR - Error in job job_id_142: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:32,806 - ERROR - Error in job job_id_143: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:33,017 - ERROR - Error in job job_id_144: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:33,247 - ERROR - Error in job job_id_145: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:33,457 - ERROR - Error in job job_id_146: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:33,670 - ERROR - Error in job job_id_147: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:33,893 - ERROR - Error in job job_id_148: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:34,103 - ERROR - Error in job job_id_149: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:34,313 - ERROR - Error in job job_id_150: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:34,525 - INFO - job_id_151 finished and saved to disk.
+2025-04-05 21:41:34,732 - INFO - job_id_152 finished and saved to disk.
+2025-04-05 21:41:34,953 - INFO - job_id_153 finished and saved to disk.
+2025-04-05 21:41:35,170 - INFO - job_id_154 finished and saved to disk.
+2025-04-05 21:41:35,374 - INFO - job_id_155 finished and saved to disk.
+2025-04-05 21:41:35,584 - INFO - job_id_156 finished and saved to disk.
+2025-04-05 21:41:35,801 - INFO - job_id_157 finished and saved to disk.
+2025-04-05 21:41:36,008 - INFO - job_id_158 finished and saved to disk.
+2025-04-05 21:41:36,220 - INFO - job_id_159 finished and saved to disk.
+2025-04-05 21:41:36,433 - INFO - job_id_160 finished and saved to disk.
+2025-04-05 21:41:36,642 - INFO - job_id_161 finished and saved to disk.
+2025-04-05 21:41:36,857 - INFO - job_id_162 finished and saved to disk.
+2025-04-05 21:41:37,063 - INFO - job_id_163 finished and saved to disk.
+2025-04-05 21:41:37,272 - INFO - job_id_164 finished and saved to disk.
+2025-04-05 21:41:37,489 - INFO - job_id_165 finished and saved to disk.
+2025-04-05 21:41:37,698 - INFO - job_id_166 finished and saved to disk.
+2025-04-05 21:41:37,913 - INFO - job_id_167 finished and saved to disk.
+2025-04-05 21:41:38,119 - INFO - job_id_168 finished and saved to disk.
+2025-04-05 21:41:38,329 - INFO - job_id_169 finished and saved to disk.
+2025-04-05 21:41:38,539 - INFO - job_id_170 finished and saved to disk.
+2025-04-05 21:41:38,744 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Wyoming => job_id_171
+2025-04-05 21:41:38,747 - INFO - job_id_171 finished and saved to disk.
+2025-04-05 21:41:38,954 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Connecticut => job_id_172
+2025-04-05 21:41:38,965 - INFO - job_id_172 finished and saved to disk.
+2025-04-05 21:41:39,166 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Colorado => job_id_173
+2025-04-05 21:41:39,173 - INFO - job_id_173 finished and saved to disk.
+2025-04-05 21:41:39,377 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Oregon => job_id_174
+2025-04-05 21:41:39,382 - INFO - job_id_174 finished and saved to disk.
+2025-04-05 21:41:39,585 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Wyoming => job_id_175
+2025-04-05 21:41:39,594 - INFO - job_id_175 finished and saved to disk.
+2025-04-05 21:41:39,802 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Connecticut => job_id_176
+2025-04-05 21:41:39,806 - INFO - job_id_176 finished and saved to disk.
+2025-04-05 21:41:40,014 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Colorado => job_id_177
+2025-04-05 21:41:40,018 - INFO - job_id_177 finished and saved to disk.
+2025-04-05 21:41:40,224 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Oregon => job_id_178
+2025-04-05 21:41:40,227 - INFO - job_id_178 finished and saved to disk.
+2025-04-05 21:41:40,433 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Wyoming => job_id_179
+2025-04-05 21:41:40,437 - INFO - job_id_179 finished and saved to disk.
+2025-04-05 21:41:40,643 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Connecticut => job_id_180
+2025-04-05 21:41:40,647 - INFO - job_id_180 finished and saved to disk.
+2025-04-05 21:41:40,853 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Colorado => job_id_181
+2025-04-05 21:41:40,858 - INFO - job_id_181 finished and saved to disk.
+2025-04-05 21:41:41,062 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Connecticut => job_id_182
+2025-04-05 21:41:41,078 - INFO - job_id_182 finished and saved to disk.
+2025-04-05 21:41:41,274 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Oregon => job_id_183
+2025-04-05 21:41:41,278 - INFO - job_id_183 finished and saved to disk.
+2025-04-05 21:41:41,483 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Colorado => job_id_184
+2025-04-05 21:41:41,487 - INFO - job_id_184 finished and saved to disk.
+2025-04-05 21:41:41,697 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Oregon => job_id_185
+2025-04-05 21:41:41,700 - INFO - job_id_185 finished and saved to disk.
+2025-04-05 21:41:41,906 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Wyoming => job_id_186
+2025-04-05 21:41:41,914 - INFO - job_id_186 finished and saved to disk.
+2025-04-05 21:41:42,119 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Connecticut => job_id_187
+2025-04-05 21:41:42,123 - INFO - job_id_187 finished and saved to disk.
+2025-04-05 21:41:42,332 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Colorado => job_id_188
+2025-04-05 21:41:42,339 - INFO - job_id_188 finished and saved to disk.
+2025-04-05 21:41:42,543 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Oregon => job_id_189
+2025-04-05 21:41:42,549 - INFO - job_id_189 finished and saved to disk.
+2025-04-05 21:41:42,753 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Wyoming => job_id_190
+2025-04-05 21:41:42,759 - INFO - job_id_190 finished and saved to disk.
+2025-04-05 21:41:42,968 - ERROR - Error in job job_id_191: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:43,204 - ERROR - Error in job job_id_192: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:43,465 - ERROR - Error in job job_id_193: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:43,674 - ERROR - Error in job job_id_194: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:43,891 - ERROR - Error in job job_id_195: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:44,098 - ERROR - Error in job job_id_196: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:44,311 - ERROR - Error in job job_id_197: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:44,520 - ERROR - Error in job job_id_198: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:44,738 - ERROR - Error in job job_id_199: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:44,960 - ERROR - Error in job job_id_200: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:45,174 - ERROR - Error in job job_id_201: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:45,384 - ERROR - Error in job job_id_202: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:45,592 - ERROR - Error in job job_id_203: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:45,804 - ERROR - Error in job job_id_204: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:46,013 - ERROR - Error in job job_id_205: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:46,224 - ERROR - Error in job job_id_206: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:46,437 - ERROR - Error in job job_id_207: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:46,643 - ERROR - Error in job job_id_208: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:46,855 - ERROR - Error in job job_id_209: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:47,070 - ERROR - Error in job job_id_210: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:41:47,277 - INFO - Received request for states_mean: Percent of adults aged 18 years and older who have an overweight classification => job_id_211
+2025-04-05 21:41:47,286 - INFO - job_id_211 finished and saved to disk.
+2025-04-05 21:41:47,495 - INFO - Received request for states_mean: Percent of adults aged 18 years and older who have obesity => job_id_212
+2025-04-05 21:41:47,500 - INFO - job_id_212 finished and saved to disk.
+2025-04-05 21:41:47,706 - INFO - Received request for states_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_213
+2025-04-05 21:41:47,710 - INFO - job_id_213 finished and saved to disk.
+2025-04-05 21:41:47,916 - INFO - Received request for states_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week => job_id_214
+2025-04-05 21:41:47,921 - INFO - job_id_214 finished and saved to disk.
+2025-04-05 21:41:48,126 - INFO - Received request for states_mean: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_215
+2025-04-05 21:41:48,131 - INFO - job_id_215 finished and saved to disk.
+2025-04-05 21:41:48,337 - INFO - Received request for states_mean: Percent of adults who engage in muscle-strengthening activities on 2 or more days a week => job_id_216
+2025-04-05 21:41:48,341 - INFO - job_id_216 finished and saved to disk.
+2025-04-05 21:41:48,551 - INFO - Received request for states_mean: Percent of adults who engage in no leisure-time physical activity => job_id_217
+2025-04-05 21:41:48,556 - INFO - job_id_217 finished and saved to disk.
+2025-04-05 21:41:48,761 - INFO - Received request for states_mean: Percent of adults who report consuming fruit less than one time daily => job_id_218
+2025-04-05 21:41:48,773 - INFO - job_id_218 finished and saved to disk.
+2025-04-05 21:41:48,999 - INFO - Received request for states_mean: Percent of adults who report consuming vegetables less than one time daily => job_id_219
+2025-04-05 21:41:49,002 - INFO - job_id_219 finished and saved to disk.
+2025-04-05 21:41:49,015 - INFO - job_id_220 finished and saved to disk.
+2025-04-05 21:41:49,225 - INFO - job_id_221 finished and saved to disk.
+2025-04-05 21:41:49,436 - INFO - job_id_222 finished and saved to disk.
+2025-04-05 21:41:49,645 - INFO - job_id_223 finished and saved to disk.
+2025-04-05 21:41:49,856 - INFO - job_id_224 finished and saved to disk.
+2025-04-05 21:41:50,065 - INFO - job_id_225 finished and saved to disk.
+2025-04-05 21:41:50,275 - INFO - job_id_226 finished and saved to disk.
+2025-04-05 21:41:50,486 - INFO - job_id_227 finished and saved to disk.
+2025-04-05 21:41:50,696 - INFO - job_id_228 finished and saved to disk.
+2025-04-05 21:45:14,220 - INFO - job_id_229 finished and saved to disk.
+2025-04-05 21:45:14,432 - INFO - job_id_230 finished and saved to disk.
+2025-04-05 21:45:14,656 - INFO - job_id_231 finished and saved to disk.
+2025-04-05 21:45:14,869 - INFO - job_id_232 finished and saved to disk.
+2025-04-05 21:45:15,077 - INFO - job_id_233 finished and saved to disk.
+2025-04-05 21:45:15,289 - INFO - job_id_234 finished and saved to disk.
+2025-04-05 21:45:15,501 - INFO - job_id_235 finished and saved to disk.
+2025-04-05 21:45:15,715 - INFO - job_id_236 finished and saved to disk.
+2025-04-05 21:45:15,922 - INFO - job_id_237 finished and saved to disk.
+2025-04-05 21:45:17,283 - INFO - job_id_238 finished and saved to disk.
+2025-04-05 21:45:17,490 - INFO - job_id_239 finished and saved to disk.
+2025-04-05 21:45:17,700 - INFO - job_id_240 finished and saved to disk.
+2025-04-05 21:45:17,921 - INFO - job_id_241 finished and saved to disk.
+2025-04-05 21:45:18,129 - INFO - job_id_242 finished and saved to disk.
+2025-04-05 21:45:18,342 - INFO - job_id_243 finished and saved to disk.
+2025-04-05 21:45:18,551 - INFO - job_id_244 finished and saved to disk.
+2025-04-05 21:45:18,763 - INFO - job_id_245 finished and saved to disk.
+2025-04-05 21:45:18,979 - INFO - job_id_246 finished and saved to disk.
+2025-04-05 21:45:19,194 - INFO - job_id_247 finished and saved to disk.
+2025-04-05 21:45:19,394 - INFO - job_id_248 finished and saved to disk.
+2025-04-05 21:45:19,604 - INFO - job_id_249 finished and saved to disk.
+2025-04-05 21:45:19,822 - INFO - job_id_250 finished and saved to disk.
+2025-04-05 21:45:20,026 - INFO - job_id_251 finished and saved to disk.
+2025-04-05 21:45:20,234 - INFO - job_id_252 finished and saved to disk.
+2025-04-05 21:45:20,452 - INFO - job_id_253 finished and saved to disk.
+2025-04-05 21:45:20,664 - INFO - job_id_254 finished and saved to disk.
+2025-04-05 21:45:20,866 - INFO - job_id_255 finished and saved to disk.
+2025-04-05 21:45:21,088 - ERROR - Error in job job_id_256: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:21,293 - ERROR - Error in job job_id_257: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:21,503 - ERROR - Error in job job_id_258: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:21,717 - ERROR - Error in job job_id_259: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:21,926 - ERROR - Error in job job_id_260: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:22,132 - ERROR - Error in job job_id_261: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:22,350 - ERROR - Error in job job_id_262: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:22,557 - ERROR - Error in job job_id_263: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:22,768 - ERROR - Error in job job_id_264: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:22,985 - INFO - job_id_265 finished and saved to disk.
+2025-04-05 21:45:23,191 - INFO - job_id_266 finished and saved to disk.
+2025-04-05 21:45:23,402 - INFO - job_id_267 finished and saved to disk.
+2025-04-05 21:45:23,614 - INFO - job_id_268 finished and saved to disk.
+2025-04-05 21:45:23,828 - INFO - job_id_269 finished and saved to disk.
+2025-04-05 21:45:24,037 - INFO - job_id_270 finished and saved to disk.
+2025-04-05 21:45:24,251 - INFO - job_id_271 finished and saved to disk.
+2025-04-05 21:45:24,463 - INFO - job_id_272 finished and saved to disk.
+2025-04-05 21:45:24,673 - INFO - job_id_273 finished and saved to disk.
+2025-04-05 21:45:24,882 - INFO - job_id_274 finished and saved to disk.
+2025-04-05 21:45:25,091 - INFO - job_id_275 finished and saved to disk.
+2025-04-05 21:45:25,364 - INFO - job_id_276 finished and saved to disk.
+2025-04-05 21:45:25,576 - INFO - job_id_277 finished and saved to disk.
+2025-04-05 21:45:25,790 - INFO - job_id_278 finished and saved to disk.
+2025-04-05 21:45:26,002 - INFO - job_id_279 finished and saved to disk.
+2025-04-05 21:45:26,210 - INFO - job_id_280 finished and saved to disk.
+2025-04-05 21:45:26,422 - INFO - job_id_281 finished and saved to disk.
+2025-04-05 21:45:26,632 - INFO - job_id_282 finished and saved to disk.
+2025-04-05 21:45:26,841 - INFO - job_id_283 finished and saved to disk.
+2025-04-05 21:45:27,051 - INFO - job_id_284 finished and saved to disk.
+2025-04-05 21:45:27,260 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Wyoming => job_id_285
+2025-04-05 21:45:27,263 - INFO - job_id_285 finished and saved to disk.
+2025-04-05 21:45:27,470 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Connecticut => job_id_286
+2025-04-05 21:45:27,474 - INFO - job_id_286 finished and saved to disk.
+2025-04-05 21:45:27,681 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Colorado => job_id_287
+2025-04-05 21:45:27,685 - INFO - job_id_287 finished and saved to disk.
+2025-04-05 21:45:27,892 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Oregon => job_id_288
+2025-04-05 21:45:27,896 - INFO - job_id_288 finished and saved to disk.
+2025-04-05 21:45:28,101 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Wyoming => job_id_289
+2025-04-05 21:45:28,105 - INFO - job_id_289 finished and saved to disk.
+2025-04-05 21:45:28,311 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Connecticut => job_id_290
+2025-04-05 21:45:28,319 - INFO - job_id_290 finished and saved to disk.
+2025-04-05 21:45:28,524 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Colorado => job_id_291
+2025-04-05 21:45:28,532 - INFO - job_id_291 finished and saved to disk.
+2025-04-05 21:45:28,737 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Oregon => job_id_292
+2025-04-05 21:45:28,747 - INFO - job_id_292 finished and saved to disk.
+2025-04-05 21:45:28,949 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Wyoming => job_id_293
+2025-04-05 21:45:28,953 - INFO - job_id_293 finished and saved to disk.
+2025-04-05 21:45:29,160 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Connecticut => job_id_294
+2025-04-05 21:45:29,164 - INFO - job_id_294 finished and saved to disk.
+2025-04-05 21:45:29,372 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Colorado => job_id_295
+2025-04-05 21:45:29,375 - INFO - job_id_295 finished and saved to disk.
+2025-04-05 21:45:29,583 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Connecticut => job_id_296
+2025-04-05 21:45:29,586 - INFO - job_id_296 finished and saved to disk.
+2025-04-05 21:45:29,793 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Oregon => job_id_297
+2025-04-05 21:45:29,799 - INFO - job_id_297 finished and saved to disk.
+2025-04-05 21:45:30,003 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Colorado => job_id_298
+2025-04-05 21:45:30,006 - INFO - job_id_298 finished and saved to disk.
+2025-04-05 21:45:30,213 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Oregon => job_id_299
+2025-04-05 21:45:30,222 - INFO - job_id_299 finished and saved to disk.
+2025-04-05 21:45:30,428 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Wyoming => job_id_300
+2025-04-05 21:45:30,432 - INFO - job_id_300 finished and saved to disk.
+2025-04-05 21:45:30,638 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Connecticut => job_id_301
+2025-04-05 21:45:30,642 - INFO - job_id_301 finished and saved to disk.
+2025-04-05 21:45:30,852 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Colorado => job_id_302
+2025-04-05 21:45:30,861 - INFO - job_id_302 finished and saved to disk.
+2025-04-05 21:45:31,063 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Oregon => job_id_303
+2025-04-05 21:45:31,068 - INFO - job_id_303 finished and saved to disk.
+2025-04-05 21:45:31,273 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Wyoming => job_id_304
+2025-04-05 21:45:31,282 - INFO - job_id_304 finished and saved to disk.
+2025-04-05 21:45:31,489 - ERROR - Error in job job_id_305: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:31,698 - ERROR - Error in job job_id_306: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:31,914 - ERROR - Error in job job_id_307: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:32,121 - ERROR - Error in job job_id_308: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:32,336 - ERROR - Error in job job_id_309: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:32,550 - ERROR - Error in job job_id_310: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:32,758 - ERROR - Error in job job_id_311: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:32,969 - ERROR - Error in job job_id_312: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:33,179 - ERROR - Error in job job_id_313: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:33,390 - ERROR - Error in job job_id_314: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:33,602 - ERROR - Error in job job_id_315: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:33,818 - ERROR - Error in job job_id_316: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:34,030 - ERROR - Error in job job_id_317: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:34,238 - ERROR - Error in job job_id_318: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:34,456 - ERROR - Error in job job_id_319: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:34,665 - ERROR - Error in job job_id_320: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:34,882 - ERROR - Error in job job_id_321: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:35,090 - ERROR - Error in job job_id_322: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:35,299 - ERROR - Error in job job_id_323: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:35,509 - ERROR - Error in job job_id_324: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:45:35,715 - INFO - Received request for states_mean: Percent of adults aged 18 years and older who have an overweight classification => job_id_325
+2025-04-05 21:45:35,720 - INFO - job_id_325 finished and saved to disk.
+2025-04-05 21:45:35,927 - INFO - Received request for states_mean: Percent of adults aged 18 years and older who have obesity => job_id_326
+2025-04-05 21:45:35,935 - INFO - job_id_326 finished and saved to disk.
+2025-04-05 21:45:36,138 - INFO - Received request for states_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_327
+2025-04-05 21:45:36,142 - INFO - job_id_327 finished and saved to disk.
+2025-04-05 21:45:36,348 - INFO - Received request for states_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week => job_id_328
+2025-04-05 21:45:36,353 - INFO - job_id_328 finished and saved to disk.
+2025-04-05 21:45:36,559 - INFO - Received request for states_mean: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_329
+2025-04-05 21:45:36,564 - INFO - job_id_329 finished and saved to disk.
+2025-04-05 21:45:36,770 - INFO - Received request for states_mean: Percent of adults who engage in muscle-strengthening activities on 2 or more days a week => job_id_330
+2025-04-05 21:45:36,775 - INFO - job_id_330 finished and saved to disk.
+2025-04-05 21:45:36,982 - INFO - Received request for states_mean: Percent of adults who engage in no leisure-time physical activity => job_id_331
+2025-04-05 21:45:36,987 - INFO - job_id_331 finished and saved to disk.
+2025-04-05 21:45:37,194 - INFO - Received request for states_mean: Percent of adults who report consuming fruit less than one time daily => job_id_332
+2025-04-05 21:45:37,198 - INFO - job_id_332 finished and saved to disk.
+2025-04-05 21:45:37,404 - INFO - Received request for states_mean: Percent of adults who report consuming vegetables less than one time daily => job_id_333
+2025-04-05 21:45:37,408 - INFO - job_id_333 finished and saved to disk.
+2025-04-05 21:45:37,620 - INFO - job_id_334 finished and saved to disk.
+2025-04-05 21:45:37,832 - INFO - job_id_335 finished and saved to disk.
+2025-04-05 21:45:38,038 - INFO - job_id_336 finished and saved to disk.
+2025-04-05 21:45:38,256 - INFO - job_id_337 finished and saved to disk.
+2025-04-05 21:45:38,466 - INFO - job_id_338 finished and saved to disk.
+2025-04-05 21:45:38,678 - INFO - job_id_339 finished and saved to disk.
+2025-04-05 21:45:38,888 - INFO - job_id_340 finished and saved to disk.
+2025-04-05 21:45:39,097 - INFO - job_id_341 finished and saved to disk.
+2025-04-05 21:45:39,308 - INFO - job_id_342 finished and saved to disk.
+2025-04-05 21:51:09,604 - INFO - Thread pool initialized with 24 threads.
+2025-04-05 21:51:46,463 - INFO - Thread pool initialized with 24 threads.
+2025-04-05 21:51:59,845 - INFO - job_id_1 finished and saved to disk.
+2025-04-05 21:52:00,054 - INFO - job_id_2 finished and saved to disk.
+2025-04-05 21:52:00,263 - INFO - job_id_3 finished and saved to disk.
+2025-04-05 21:52:00,474 - INFO - job_id_4 finished and saved to disk.
+2025-04-05 21:52:00,682 - INFO - job_id_5 finished and saved to disk.
+2025-04-05 21:52:00,896 - INFO - job_id_6 finished and saved to disk.
+2025-04-05 21:52:01,104 - INFO - job_id_7 finished and saved to disk.
+2025-04-05 21:52:01,314 - INFO - job_id_8 finished and saved to disk.
+2025-04-05 21:52:01,523 - INFO - job_id_9 finished and saved to disk.
+2025-04-05 21:52:02,888 - INFO - job_id_10 finished and saved to disk.
+2025-04-05 21:52:03,106 - INFO - job_id_11 finished and saved to disk.
+2025-04-05 21:52:03,325 - INFO - job_id_12 finished and saved to disk.
+2025-04-05 21:52:03,540 - INFO - job_id_13 finished and saved to disk.
+2025-04-05 21:52:03,748 - INFO - job_id_14 finished and saved to disk.
+2025-04-05 21:52:03,963 - INFO - job_id_15 finished and saved to disk.
+2025-04-05 21:52:04,175 - INFO - job_id_16 finished and saved to disk.
+2025-04-05 21:52:04,389 - INFO - job_id_17 finished and saved to disk.
+2025-04-05 21:52:04,598 - INFO - job_id_18 finished and saved to disk.
+2025-04-05 21:52:04,811 - INFO - job_id_19 finished and saved to disk.
+2025-04-05 21:52:05,019 - INFO - job_id_20 finished and saved to disk.
+2025-04-05 21:52:05,229 - INFO - job_id_21 finished and saved to disk.
+2025-04-05 21:52:05,447 - INFO - job_id_22 finished and saved to disk.
+2025-04-05 21:52:05,660 - INFO - job_id_23 finished and saved to disk.
+2025-04-05 21:52:05,870 - INFO - job_id_24 finished and saved to disk.
+2025-04-05 21:52:06,078 - INFO - job_id_25 finished and saved to disk.
+2025-04-05 21:52:06,289 - INFO - job_id_26 finished and saved to disk.
+2025-04-05 21:52:06,499 - INFO - job_id_27 finished and saved to disk.
+2025-04-05 21:52:06,713 - ERROR - Error in job job_id_28: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:06,926 - ERROR - Error in job job_id_29: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:07,132 - ERROR - Error in job job_id_30: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:07,343 - ERROR - Error in job job_id_31: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:07,561 - ERROR - Error in job job_id_32: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:07,763 - ERROR - Error in job job_id_33: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:07,980 - ERROR - Error in job job_id_34: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:08,185 - ERROR - Error in job job_id_35: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:08,398 - ERROR - Error in job job_id_36: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:08,612 - INFO - job_id_37 finished and saved to disk.
+2025-04-05 21:52:08,822 - INFO - job_id_38 finished and saved to disk.
+2025-04-05 21:52:09,033 - INFO - job_id_39 finished and saved to disk.
+2025-04-05 21:52:09,241 - INFO - job_id_40 finished and saved to disk.
+2025-04-05 21:52:09,452 - INFO - job_id_41 finished and saved to disk.
+2025-04-05 21:52:09,660 - INFO - job_id_42 finished and saved to disk.
+2025-04-05 21:52:09,869 - INFO - job_id_43 finished and saved to disk.
+2025-04-05 21:52:10,081 - INFO - job_id_44 finished and saved to disk.
+2025-04-05 21:52:10,292 - INFO - job_id_45 finished and saved to disk.
+2025-04-05 21:52:10,502 - INFO - job_id_46 finished and saved to disk.
+2025-04-05 21:52:10,713 - INFO - job_id_47 finished and saved to disk.
+2025-04-05 21:52:10,925 - INFO - job_id_48 finished and saved to disk.
+2025-04-05 21:52:11,134 - INFO - job_id_49 finished and saved to disk.
+2025-04-05 21:52:11,344 - INFO - job_id_50 finished and saved to disk.
+2025-04-05 21:52:11,554 - INFO - job_id_51 finished and saved to disk.
+2025-04-05 21:52:11,764 - INFO - job_id_52 finished and saved to disk.
+2025-04-05 21:52:11,978 - INFO - job_id_53 finished and saved to disk.
+2025-04-05 21:52:12,184 - INFO - job_id_54 finished and saved to disk.
+2025-04-05 21:52:12,394 - INFO - job_id_55 finished and saved to disk.
+2025-04-05 21:52:12,604 - INFO - job_id_56 finished and saved to disk.
+2025-04-05 21:52:12,811 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Wyoming => job_id_57
+2025-04-05 21:52:12,816 - INFO - job_id_57 finished and saved to disk.
+2025-04-05 21:52:13,022 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Connecticut => job_id_58
+2025-04-05 21:52:13,025 - INFO - job_id_58 finished and saved to disk.
+2025-04-05 21:52:13,031 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Colorado => job_id_59
+2025-04-05 21:52:13,034 - INFO - job_id_59 finished and saved to disk.
+2025-04-05 21:52:13,241 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Oregon => job_id_60
+2025-04-05 21:52:13,247 - INFO - job_id_60 finished and saved to disk.
+2025-04-05 21:52:13,455 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Wyoming => job_id_61
+2025-04-05 21:52:13,460 - INFO - job_id_61 finished and saved to disk.
+2025-04-05 21:52:13,666 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Connecticut => job_id_62
+2025-04-05 21:52:13,671 - INFO - job_id_62 finished and saved to disk.
+2025-04-05 21:52:13,878 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Colorado => job_id_63
+2025-04-05 21:52:13,884 - INFO - job_id_63 finished and saved to disk.
+2025-04-05 21:52:14,089 - INFO - Received request for state_mean: Percent of adults aged 18 years and older who have obesity + Oregon => job_id_64
+2025-04-05 21:52:14,096 - INFO - job_id_64 finished and saved to disk.
+2025-04-05 21:52:14,303 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Wyoming => job_id_65
+2025-04-05 21:52:14,307 - INFO - job_id_65 finished and saved to disk.
+2025-04-05 21:52:14,518 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Connecticut => job_id_66
+2025-04-05 21:52:14,522 - INFO - job_id_66 finished and saved to disk.
+2025-04-05 21:52:14,728 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Colorado => job_id_67
+2025-04-05 21:52:14,731 - INFO - job_id_67 finished and saved to disk.
+2025-04-05 21:52:14,937 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Connecticut => job_id_68
+2025-04-05 21:52:14,942 - INFO - job_id_68 finished and saved to disk.
+2025-04-05 21:52:15,146 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) + Oregon => job_id_69
+2025-04-05 21:52:15,151 - INFO - job_id_69 finished and saved to disk.
+2025-04-05 21:52:15,356 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Colorado => job_id_70
+2025-04-05 21:52:15,362 - INFO - job_id_70 finished and saved to disk.
+2025-04-05 21:52:15,567 - INFO - Received request for state_mean: Percent of adults who report consuming fruit less than one time daily + Oregon => job_id_71
+2025-04-05 21:52:15,574 - INFO - job_id_71 finished and saved to disk.
+2025-04-05 21:52:15,777 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Wyoming => job_id_72
+2025-04-05 21:52:15,783 - INFO - job_id_72 finished and saved to disk.
+2025-04-05 21:52:15,988 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Connecticut => job_id_73
+2025-04-05 21:52:15,993 - INFO - job_id_73 finished and saved to disk.
+2025-04-05 21:52:16,199 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Colorado => job_id_74
+2025-04-05 21:52:16,203 - INFO - job_id_74 finished and saved to disk.
+2025-04-05 21:52:16,412 - INFO - Received request for state_mean: Percent of adults who engage in no leisure-time physical activity + Oregon => job_id_75
+2025-04-05 21:52:16,416 - INFO - job_id_75 finished and saved to disk.
+2025-04-05 21:52:16,624 - INFO - Received request for state_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week + Wyoming => job_id_76
+2025-04-05 21:52:16,628 - INFO - job_id_76 finished and saved to disk.
+2025-04-05 21:52:16,843 - ERROR - Error in job job_id_77: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:17,059 - ERROR - Error in job job_id_78: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:17,276 - ERROR - Error in job job_id_79: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:17,487 - ERROR - Error in job job_id_80: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:17,698 - ERROR - Error in job job_id_81: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:17,916 - ERROR - Error in job job_id_82: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:18,121 - ERROR - Error in job job_id_83: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:18,335 - ERROR - Error in job job_id_84: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:18,560 - ERROR - Error in job job_id_85: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:18,822 - ERROR - Error in job job_id_86: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:19,039 - ERROR - Error in job job_id_87: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:19,247 - ERROR - Error in job job_id_88: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:19,462 - ERROR - Error in job job_id_89: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:19,671 - ERROR - Error in job job_id_90: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:19,882 - ERROR - Error in job job_id_91: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:20,095 - ERROR - Error in job job_id_92: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:20,311 - ERROR - Error in job job_id_93: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:20,521 - ERROR - Error in job job_id_94: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:20,737 - ERROR - Error in job job_id_95: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:20,942 - ERROR - Error in job job_id_96: keys must be str, int, float, bool or None, not tuple
+2025-04-05 21:52:21,150 - INFO - Received request for states_mean: Percent of adults aged 18 years and older who have an overweight classification => job_id_97
+2025-04-05 21:52:21,155 - INFO - job_id_97 finished and saved to disk.
+2025-04-05 21:52:21,363 - INFO - Received request for states_mean: Percent of adults aged 18 years and older who have obesity => job_id_98
+2025-04-05 21:52:21,367 - INFO - job_id_98 finished and saved to disk.
+2025-04-05 21:52:21,575 - INFO - Received request for states_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_99
+2025-04-05 21:52:21,580 - INFO - job_id_99 finished and saved to disk.
+2025-04-05 21:52:21,787 - INFO - Received request for states_mean: Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week => job_id_100
+2025-04-05 21:52:21,792 - INFO - job_id_100 finished and saved to disk.
+2025-04-05 21:52:22,006 - INFO - Received request for states_mean: Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination) => job_id_101
+2025-04-05 21:52:22,013 - INFO - job_id_101 finished and saved to disk.
+2025-04-05 21:52:22,219 - INFO - Received request for states_mean: Percent of adults who engage in muscle-strengthening activities on 2 or more days a week => job_id_102
+2025-04-05 21:52:22,225 - INFO - job_id_102 finished and saved to disk.
+2025-04-05 21:52:22,431 - INFO - Received request for states_mean: Percent of adults who engage in no leisure-time physical activity => job_id_103
+2025-04-05 21:52:22,437 - INFO - job_id_103 finished and saved to disk.
+2025-04-05 21:52:22,644 - INFO - Received request for states_mean: Percent of adults who report consuming fruit less than one time daily => job_id_104
+2025-04-05 21:52:22,647 - INFO - job_id_104 finished and saved to disk.
+2025-04-05 21:52:22,856 - INFO - Received request for states_mean: Percent of adults who report consuming vegetables less than one time daily => job_id_105
+2025-04-05 21:52:22,860 - INFO - job_id_105 finished and saved to disk.
+2025-04-05 21:52:23,071 - INFO - job_id_106 finished and saved to disk.
+2025-04-05 21:52:23,282 - INFO - job_id_107 finished and saved to disk.
+2025-04-05 21:52:23,497 - INFO - job_id_108 finished and saved to disk.
+2025-04-05 21:52:23,704 - INFO - job_id_109 finished and saved to disk.
+2025-04-05 21:52:23,917 - INFO - job_id_110 finished and saved to disk.
+2025-04-05 21:52:24,127 - INFO - job_id_111 finished and saved to disk.
+2025-04-05 21:52:24,336 - INFO - job_id_112 finished and saved to disk.
+2025-04-05 21:52:24,550 - INFO - job_id_113 finished and saved to disk.
+2025-04-05 21:52:24,759 - INFO - job_id_114 finished and saved to disk.
