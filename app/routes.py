@@ -1,68 +1,61 @@
-from app import webserver
-from flask import request, jsonify
-
-import os
+"""Definirea rutelor API pentru serverul de fitness."""
 import json
+from flask import request, jsonify
+from app import webserver
 
 def make_job(func):
+    """Creaza un job care va fi adaugat in coada"""
     return lambda: {"result": func()}
 
-
-# Example endpoint definition
 @webserver.route('/api/post_endpoint', methods=['POST'])
 def post_endpoint():
+    """Proceseaza o cerere POST si returneaza datele primite ca raspuns JSON"""
     if request.method == 'POST':
-        # Assuming the request contains JSON data
         data = request.json
         print(f"got data in post {data}")
 
-        # Process the received data
-        # For demonstration purposes, just echoing back the received data
         response = {"message": "Received data successfully", "data": data}
 
-        # Sending back a JSON response
         return jsonify(response)
-    else:
-        # Method Not Allowed
-        return jsonify({"error": "Method not allowed"}), 405
+    return jsonify({"message": "Invalid request method"}), 405
 
 @webserver.route('/api/get_results/<job_id>', methods=['GET'])
 def get_response(job_id):
+    """Returneaza rezultatul unui job pe baza ID-ului"""
     status = webserver.tasks_runner.get_status(job_id)
     if status == "invalid":
         return jsonify({"status": "error", "reason": "Invalid job_id"}), 404
-    elif status == "running":
+    if status == "running":
         return jsonify({"status": "running"})
-    else:
-        try:
-            with open(f"results/{job_id}.json") as f:
-                result = json.load(f)
-            # Se returnează direct rezultatul job‑ului
-            return jsonify({"status": "done", "data": result["result"]})
-        except:
-            return jsonify({"status": "error", "reason": "Result file not found"}), 200
+    try:
+        with open(f"results/{job_id}.json", encoding="utf-8") as f:
+            result = json.load(f)
+        return jsonify({"status": "done", "data": result["result"]})
+    except (FileNotFoundError, json.JSONDecodeError):
+        return jsonify({"status": "error", "reason": "Result file not found"}), 200
 
 
 @webserver.route('/api/states_mean', methods=['POST'])
 def states_mean_request():
+    """Initiaza un job pentru calcularea mediei valorilor pe fiecare stat"""
     data = request.json
     question = data.get("question")
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
 
     def job():
-        # Returnăm direct dicţionarul de medii pe state
         return webserver.data_ingestor.get_states_mean(question)
 
     res = webserver.tasks_runner.add_task(job_id, job)
     if res == -1:
         return jsonify({"status": "error", "reason": "shutting down"}), 405
-    webserver.logger.info(f"Received request for states_mean: {question} => {job_id}")
+    webserver.logger.info("Received request for states_mean: %s => %s", question, job_id)
     return jsonify({"status": "running", "job_id": job_id})
 
 
 @webserver.route('/api/state_mean', methods=['POST'])
 def state_mean_request():
+    """Calcularea mediei valorii pentru un stat si o intrebare specificata"""
     data = request.json
     question = data.get("question")
     state = data.get("state")
@@ -76,12 +69,13 @@ def state_mean_request():
     res = webserver.tasks_runner.add_task(job_id, job)
     if res == -1:
         return jsonify({"status": "error", "reason": "shutting down"}), 405
-    webserver.logger.info(f"Received request for state_mean: {question} + {state} => {job_id}")
+    webserver.logger.info("Received request for state_mean: %s + %s => %s", question, state, job_id)
     return jsonify({"status": "running", "job_id": job_id})
 
 
 @webserver.route('/api/best5', methods=['POST'])
 def best5_request():
+    """Returneaza cele mai bine cotate 5 state pentru o intrebare"""
     data = request.json
     question = data.get("question")
 
@@ -105,6 +99,7 @@ def best5_request():
 
 @webserver.route('/api/worst5', methods=['POST'])
 def worst5_request():
+    """Returneaza cele mai prost cotate 5 state pentru o intrebare"""
     data = request.json
     question = data.get("question")
 
@@ -128,6 +123,7 @@ def worst5_request():
 
 @webserver.route('/api/global_mean', methods=['POST'])
 def global_mean_request():
+    """Returneaza media globala pentru o intrebare"""
     data = request.json
     question = data.get("question")
     job_id = f"job_id_{webserver.job_counter}"
@@ -135,7 +131,7 @@ def global_mean_request():
 
     def job():
         value = webserver.data_ingestor.get_global_mean(question)
-        return {"status": "done", "data": value}
+        return {"global_mean": value}
 
     res = webserver.tasks_runner.add_task(job_id, job)
     if res == -1:
@@ -145,6 +141,7 @@ def global_mean_request():
 
 @webserver.route('/api/diff_from_mean', methods=['POST'])
 def diff_from_mean_request():
+    """Returneaza diferenta dintre media globala si media pe state"""
     data = request.json
     question = data.get("question")
     job_id = f"job_id_{webserver.job_counter}"
@@ -164,6 +161,7 @@ def diff_from_mean_request():
 
 @webserver.route('/api/state_diff_from_mean', methods=['POST'])
 def state_diff_from_mean_request():
+    """Returneaza diferenta dintre media globala si media unui stat dat"""
     data = request.json
     question = data.get("question")
     state = data.get("state")
@@ -184,14 +182,14 @@ def state_diff_from_mean_request():
 
 @webserver.route('/api/mean_by_category', methods=['POST'])
 def mean_by_category_request():
+    """Returneaza media valorilor grupate pe categorie pentru o intrebare"""
     data = request.json
     question = data.get("question")
     job_id = f"job_id_{webserver.job_counter}"
     webserver.job_counter += 1
 
     def job():
-        result = webserver.data_ingestor.get_mean_by_category(question)
-        return {"status": "done", "data": result}
+        return webserver.data_ingestor.get_mean_by_category(question)
 
     res = webserver.tasks_runner.add_task(job_id, job)
     if res == -1:
@@ -201,6 +199,7 @@ def mean_by_category_request():
 
 @webserver.route('/api/state_mean_by_category', methods=['POST'])
 def state_mean_by_category_request():
+    """Returneaza media valorilor grupate pe categorie pentru un stat si o intrebare"""
     data = request.json
     question = data.get("question")
     state = data.get("state")
@@ -208,8 +207,7 @@ def state_mean_by_category_request():
     webserver.job_counter += 1
 
     def job():
-        result = webserver.data_ingestor.get_mean_by_category(question, state=state)
-        return {"status": "done", "data": result}
+        return webserver.data_ingestor.get_mean_by_category(question, state=state)
 
     res = webserver.tasks_runner.add_task(job_id, job)
     if res == -1:
@@ -219,15 +217,16 @@ def state_mean_by_category_request():
 
 @webserver.route('/api/graceful_shutdown', methods=['GET'])
 def graceful_shutdown():
+    """Initiaza oprirea controlata a serv dupa finalizarea joburilor in curs"""
     webserver.tasks_runner.graceful_shutdown()
     if webserver.tasks_runner.pending_jobs() > 0:
         return jsonify({"status": "running"})
-    else:
-        return jsonify({"status": "done"})
+    return jsonify({"status": "done"})
 
 
 @webserver.route('/api/jobs', methods=['GET'])
 def all_jobs():
+    """Returneaza lista tuturor joburilor si statusul lor"""
     status_dict = webserver.tasks_runner.all_jobs()
     result = [{"job_id": job_id, "status": status} for job_id, status in status_dict.items()]
     return jsonify({"status": "done", "data": result})
@@ -235,26 +234,26 @@ def all_jobs():
 
 @webserver.route('/api/num_jobs', methods=['GET'])
 def num_jobs():
+    """Returneaza numarul de joburi care sunt inca in executie"""
     pending = webserver.tasks_runner.pending_jobs()
     return jsonify({"status": "done", "jobs_left": pending})
 
-
-# You can check localhost in your browser to see what this displays
 @webserver.route('/')
 @webserver.route('/index')
 def index():
+    """Returneaza lista tuturor rutelor disponibile in API"""
     routes = get_defined_routes()
-    msg = f"Hello, World!\n Interact with the webserver using one of the defined routes:\n"
+    msg = "Hello, World!\n Interact with the webserver using one of the defined routes:\n"
 
-    # Display each route as a separate HTML <p> tag
     paragraphs = ""
     for route in routes:
-        paragraphs += f"<p>{route}</p>"
+        paragraphs = ''.join(f"<p>{route}</p>" for route in routes)
 
     msg += paragraphs
     return msg
 
 def get_defined_routes():
+    """Returneaza toate rutele definite in aplicatie impreuna cu metodele lor"""
     routes = []
     for rule in webserver.url_map.iter_rules():
         methods = ', '.join(rule.methods)
