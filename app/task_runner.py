@@ -8,7 +8,6 @@ import multiprocessing
 class ThreadPool:
     """Gestioneaza un grup de thread-uri care executa in paralel taskurile"""
     def __init__(self, logger, data_ingestor):
-        """Initializeaza thread pool-ul si porneste thread-urile de lucru"""
         self.logger = logger
         self.data_ingestor = data_ingestor
         self.tasks = Queue()
@@ -30,7 +29,7 @@ class ThreadPool:
         self.logger.info(f"Thread pool initialized with {self.num_threads} threads.")
 
     def add_task(self, job_id, func):
-        """Adauga un task nou in coada daca serverul nu este in shutdown."""
+        """Adauga un task nou in coada daca serverul nu este in shutdown"""
         if self.shutdown_event.is_set():
             return -1
         self.job_status[job_id] = "running"
@@ -46,11 +45,11 @@ class ThreadPool:
         return self.job_status.get(job_id, "invalid")
 
     def all_jobs(self):
-        """Returneaza toate job-urile"""
+        """Returneaza toate joburile"""
         return self.job_status
 
     def pending_jobs(self):
-        """Returneaza numarul de job-uri care sunt inca in executie"""
+        """Returneaza numarul de joburi inca in executie"""
         return sum(1 for status in self.job_status.values() if status == "running")
 
 class TaskRunner(Thread):
@@ -69,16 +68,15 @@ class TaskRunner(Thread):
         while not self.shutdown_event.is_set() or not self.tasks.empty():
             job_id = None
             try:
-                job_id, func = self.tasks.get(timeout=1)
+                job_id, func = self.tasks.get()
                 result = func()
-                os.makedirs("results", exist_ok=True)
-                with open(f"results/{job_id}.json", "w", encoding="utf-8") as f:
+                with open(f"results/{job_id}.json", "w", encoding = "utf-8") as f:
                     json.dump({"result": result}, f)
                 self.job_status[job_id] = "done"
                 self.logger.info(f"{job_id} finished and saved to disk.")
             except Empty:
                 continue
-            except (ValueError, IOError) as e:
+            except Exception as e:
                 if job_id:
                     self.job_status[job_id] = "error"
                     self.logger.error(f"Error in job {job_id}: {e}")

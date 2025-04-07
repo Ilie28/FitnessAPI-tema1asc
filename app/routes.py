@@ -1,3 +1,4 @@
+
 """Definirea rutelor API pentru serverul de fitness."""
 import json
 from flask import request, jsonify
@@ -40,8 +41,9 @@ def states_mean_request():
     """Initiaza un job pentru calcularea mediei valorilor pe fiecare stat"""
     data = request.json
     question = data.get("question")
-    job_id = f"job_id_{webserver.job_counter}"
-    webserver.job_counter += 1
+    with webserver.job_lock:
+        job_id = f"job_id_{webserver.job_counter}"
+        webserver.job_counter += 1
 
     def job():
         return webserver.data_ingestor.get_states_mean(question)
@@ -59,8 +61,11 @@ def state_mean_request():
     data = request.json
     question = data.get("question")
     state = data.get("state")
-    job_id = f"job_id_{webserver.job_counter}"
-    webserver.job_counter += 1
+
+    with webserver.job_lock:
+        job_id = f"job_id_{webserver.job_counter}"
+        webserver.job_counter += 1
+
 
     def job():
         mean = webserver.data_ingestor.get_state_mean(question, state)
@@ -79,8 +84,10 @@ def best5_request():
     data = request.json
     question = data.get("question")
 
-    job_id = f"job_id_{webserver.job_counter}"
-    webserver.job_counter += 1
+    with webserver.job_lock:
+        job_id = f"job_id_{webserver.job_counter}"
+        webserver.job_counter += 1
+
 
     def job():
         state_means = webserver.data_ingestor.get_states_mean(question)
@@ -103,8 +110,10 @@ def worst5_request():
     data = request.json
     question = data.get("question")
 
-    job_id = f"job_id_{webserver.job_counter}"
-    webserver.job_counter += 1
+    with webserver.job_lock:
+        job_id = f"job_id_{webserver.job_counter}"
+        webserver.job_counter += 1
+
 
     def job():
         state_means = webserver.data_ingestor.get_states_mean(question)
@@ -126,8 +135,9 @@ def global_mean_request():
     """Returneaza media globala pentru o intrebare"""
     data = request.json
     question = data.get("question")
-    job_id = f"job_id_{webserver.job_counter}"
-    webserver.job_counter += 1
+    with webserver.job_lock:
+        job_id = f"job_id_{webserver.job_counter}"
+        webserver.job_counter += 1
 
     def job():
         value = webserver.data_ingestor.get_global_mean(question)
@@ -144,8 +154,9 @@ def diff_from_mean_request():
     """Returneaza diferenta dintre media globala si media pe state"""
     data = request.json
     question = data.get("question")
-    job_id = f"job_id_{webserver.job_counter}"
-    webserver.job_counter += 1
+    with webserver.job_lock:
+        job_id = f"job_id_{webserver.job_counter}"
+        webserver.job_counter += 1
 
     def job():
         global_mean = webserver.data_ingestor.get_global_mean(question)
@@ -165,8 +176,9 @@ def state_diff_from_mean_request():
     data = request.json
     question = data.get("question")
     state = data.get("state")
-    job_id = f"job_id_{webserver.job_counter}"
-    webserver.job_counter += 1
+    with webserver.job_lock:
+        job_id = f"job_id_{webserver.job_counter}"
+        webserver.job_counter += 1
 
     def job():
         global_mean = webserver.data_ingestor.get_global_mean(question)
@@ -185,8 +197,9 @@ def mean_by_category_request():
     """Returneaza media valorilor grupate pe categorie pentru o intrebare"""
     data = request.json
     question = data.get("question")
-    job_id = f"job_id_{webserver.job_counter}"
-    webserver.job_counter += 1
+    with webserver.job_lock:
+        job_id = f"job_id_{webserver.job_counter}"
+        webserver.job_counter += 1
 
     def job():
         return webserver.data_ingestor.get_mean_by_category(question)
@@ -203,8 +216,9 @@ def state_mean_by_category_request():
     data = request.json
     question = data.get("question")
     state = data.get("state")
-    job_id = f"job_id_{webserver.job_counter}"
-    webserver.job_counter += 1
+    with webserver.job_lock:
+        job_id = f"job_id_{webserver.job_counter}"
+        webserver.job_counter += 1
 
     def job():
         return webserver.data_ingestor.get_mean_by_category(question, state=state)

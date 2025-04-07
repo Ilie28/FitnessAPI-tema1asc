@@ -51,10 +51,19 @@ class DataIngestor:
     def get_mean_by_category(self, question, state=None):
         """Returnează media pe categorii de stratificare pentru o întrebare anume."""
         df = self.filter_by_question(question)
+
         if state:
             df = df[df['LocationDesc'] == state]
-        return (
-            df.groupby(['StratificationCategory1', 'Stratification1'])['Data_Value']
-            .mean()
-            .to_dict()
-        )
+            grouped = df.groupby(['StratificationCategory1', 'Stratification1']).Data_Value.mean()
+            result = {str((strat_cat, strat)): val for (strat_cat, strat), val in grouped.items()}
+            return {state: result}
+
+        grouped = df.groupby(
+            ['LocationDesc', 'StratificationCategory1', 'Stratification1']
+        ).Data_Value.mean()
+
+        result = {
+            str((state_name, strat_cat, strat)): val
+            for (state_name, strat_cat, strat), val in grouped.items()
+        }
+        return result
