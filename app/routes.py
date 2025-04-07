@@ -135,7 +135,7 @@ def global_mean_request():
 
     def job():
         value = webserver.data_ingestor.get_global_mean(question)
-        return value
+        return {"status": "done", "data": value}
 
     res = webserver.tasks_runner.add_task(job_id, job)
     if res == -1:
@@ -153,7 +153,7 @@ def diff_from_mean_request():
     def job():
         global_mean = webserver.data_ingestor.get_global_mean(question)
         states_mean = webserver.data_ingestor.get_states_mean(question)
-        diff = {state: round(mean - global_mean, 3) for state, mean in states_mean.items()}
+        diff = {state: round(global_mean - mean, 3) for state, mean in states_mean.items()}
         return diff
 
     res = webserver.tasks_runner.add_task(job_id, job)
@@ -191,7 +191,7 @@ def mean_by_category_request():
 
     def job():
         result = webserver.data_ingestor.get_mean_by_category(question)
-        return result
+        return {"status": "done", "data": result}
 
     res = webserver.tasks_runner.add_task(job_id, job)
     if res == -1:
