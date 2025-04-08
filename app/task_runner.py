@@ -1,4 +1,4 @@
-"""Modul pentru gestionarea executiei in paralel a task-urilor folosind un thread pool"""
+"""Fisier pentru gestionarea executiei in paralel a task-urilor folosind un thread pool"""
 import os
 import json
 from threading import Thread, Event
@@ -6,8 +6,10 @@ from queue import Queue, Empty
 import multiprocessing
 
 class ThreadPool:
-    """Gestioneaza un grup de thread-uri care executa in paralel taskurile"""
+    """Functie pentru un grup de thread-uri care executa in paralel taskurile"""
     def __init__(self, logger, data_ingestor):
+        """Initializeaza un thread pool cu numarul de thread-uri specificat 
+        in functie de numarul de CPU-uri disponibile"""
         self.logger = logger
         self.data_ingestor = data_ingestor
         self.tasks = Queue()
@@ -17,6 +19,7 @@ class ThreadPool:
         self.workers = []
 
         for _ in range(self.num_threads):
+            # Initializeaza un worker thread
             worker = TaskRunner(
                 self.tasks,
                 self.job_status,
@@ -32,8 +35,10 @@ class ThreadPool:
         """Adauga un task nou in coada daca serverul nu este in shutdown"""
         if self.shutdown_event.is_set():
             return -1
-        self.job_status[job_id] = "running"
+
+        self.job_status.update({job_id: "running"})
         self.tasks.put((job_id, func))
+
         return job_id
 
     def graceful_shutdown(self):
@@ -61,6 +66,7 @@ class TaskRunner(Thread):
         self.job_status = job_status
         self.shutdown_event = shutdown_event
         self.logger = logger
+        self.logger.info("TaskRunner initialized")
         self.data_ingestor = data_ingestor
 
     def run(self):
@@ -72,13 +78,13 @@ class TaskRunner(Thread):
                 result = func()
                 with open(f"results/{job_id}.json", "w", encoding = "utf-8") as f:
                     json.dump({"result": result}, f)
-                self.job_status[job_id] = "done"
-                self.logger.info(f"{job_id} finished and saved to disk.")
+                self.job_status.update({job_id: "done"})
+                self.logger.info(f"{job_id} finished execution")
             except Empty:
                 continue
             except Exception as e:
                 if job_id:
-                    self.job_status[job_id] = "error"
+                    self.job_status.update({job_id: "error"})
                     self.logger.error(f"Error in job {job_id}: {e}")
                 else:
                     self.logger.error(f"Thread error before getting job_id: {e}")

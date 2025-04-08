@@ -3,7 +3,6 @@ import os
 import time
 import logging
 from logging.handlers import RotatingFileHandler
-from threading import Lock
 from flask import Flask
 from app.data_ingestor import DataIngestor
 from app.task_runner import ThreadPool
@@ -34,6 +33,5 @@ webserver.tasks_runner = ThreadPool(webserver.logger, webserver.data_ingestor)
 
 # Job counter
 webserver.job_counter = 1
-webserver.job_lock = Lock()
 
 from app import routes

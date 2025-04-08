@@ -1,10 +1,10 @@
-"""Modul pentru citirea și procesarea datelor despre fitness dintr-un fișier CSV."""
+"""Fisier pentru citirea si procesarea datelor despre fitness dintr-un fisier CSV"""
 import pandas as pd
 
 class DataIngestor:
-    """Clasa care citește fișierul CSV și oferă metode de agregare a datelor."""
+    """Clasa care citeste fișierul CSV in care creez functii pentru a prelucra datele"""
     def __init__(self, csv_path: str):
-        """Inițializează citirea datelor din fișierul CSV."""
+        """Initializez citirea datelor din fisierul CSV"""
         self.df = pd.read_csv(csv_path)
 
         self.questions_best_is_min = [
@@ -30,32 +30,35 @@ class DataIngestor:
             'more days a week'),
         ]
     def filter_by_question(self, question):
-        """Returnează rândurile din DataFrame pentru o întrebare anume."""
+        """Returneaza randurile necesare pentru o intrebare anume"""
         return self.df[self.df['Question'] == question]
 
     def get_states_mean(self, question):
-        """Returnează media pe state pentru o întrebare anume."""
+        """Returneaza media pe state pentru o intrebare anume"""
         df = self.filter_by_question(question)
         return df.groupby('LocationDesc')['Data_Value'].mean().sort_values().to_dict()
 
     def get_state_mean(self, question, state):
-        """Returnează media pentru o întrebare anume și un stat specific."""
+        """Returneaza media pentru o intrebare anume si un stat specific"""
         df = self.filter_by_question(question)
         return df[df['LocationDesc'] == state]['Data_Value'].mean()
 
     def get_global_mean(self, question):
-        """Returnează media globală pentru o întrebare anume."""
+        """Returneaza media globala pentru o intrebare anume"""
         df = self.filter_by_question(question)
         return df['Data_Value'].mean()
 
     def get_mean_by_category(self, question, state=None):
-        """Returnează media pe categorii de stratificare pentru o întrebare anume."""
+        """Returneaza media pe categorii de stratificare pentru o intrebare anume"""
         df = self.filter_by_question(question)
 
         if state:
             df = df[df['LocationDesc'] == state]
             grouped = df.groupby(['StratificationCategory1', 'Stratification1']).Data_Value.mean()
-            result = {str((strat_cat, strat)): val for (strat_cat, strat), val in grouped.items()}
+            result = {}
+            for key, val in grouped.items():
+                strat_cat, strat = key
+                result[str((strat_cat, strat))] = val
             return {state: result}
 
         grouped = df.groupby(
