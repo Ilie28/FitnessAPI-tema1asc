@@ -10,7 +10,7 @@ from app.task_runner import ThreadPool
 if not os.path.exists('results'):
     os.mkdir('results')
 
-# Configurare logging
+# Configurarea logging ului
 logger = logging.getLogger("webserver")
 logger.setLevel(logging.INFO)
 handler = RotatingFileHandler("webserver.log", maxBytes=10_000_000, backupCount=5)
@@ -18,20 +18,20 @@ formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
-# UTC logging
+# timestamp in format utc/gmt
 logging.Formatter.converter = time.gmtime
 
-# Flask app
+# Aplicatia Flask
 webserver = Flask(__name__)
 webserver.logger = logger
 
-# CSV load
+# Fisierul CSV cu datele
 webserver.data_ingestor = DataIngestor("./nutrition_activity_obesity_usa_subset.csv")
 
-# Init thread pool with logger and data_ingestor
+# Am initializat un pool de thread-uri pentru a rula task-urile in paralel
 webserver.tasks_runner = ThreadPool(webserver.logger, webserver.data_ingestor)
 
-# Job counter
+# Retinem id ul job-ului curent
 webserver.job_counter = 1
 
 from app import routes

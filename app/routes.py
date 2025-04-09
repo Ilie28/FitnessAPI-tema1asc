@@ -40,6 +40,7 @@ def get_response(job_id):
 @webserver.route('/api/states_mean', methods=['POST'])
 def states_mean_request():
     """Initiaza un job pentru calcularea mediei valorilor pe fiecare stat"""
+    webserver.logger.info("start")
     data = request.json
     question = data.get("question")
 
@@ -53,6 +54,7 @@ def states_mean_request():
     if res == -1:
         return jsonify({"status": "error", "reason": "shutting down"}), 405
     webserver.logger.info("Received request for states_mean: %s => %s", question, job_id)
+    webserver.logger.info("sfarsit")
     return jsonify({"status": "running", "job_id": job_id})
 
 

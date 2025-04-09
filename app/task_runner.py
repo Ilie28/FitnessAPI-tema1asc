@@ -66,7 +66,7 @@ class TaskRunner(Thread):
         self.job_status = job_status
         self.shutdown_event = shutdown_event
         self.logger = logger
-        self.logger.info("TaskRunner initialized")
+        self.logger.info("Thread initialized")
         self.data_ingestor = data_ingestor
 
     def run(self):
