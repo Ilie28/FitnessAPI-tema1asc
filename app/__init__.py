@@ -24,6 +24,7 @@ logging.Formatter.converter = time.gmtime
 # Aplicatia Flask
 webserver = Flask(__name__)
 webserver.logger = logger
+webserver.accept = True
 
 # Fisierul CSV cu datele
 webserver.data_ingestor = DataIngestor("./nutrition_activity_obesity_usa_subset.csv")

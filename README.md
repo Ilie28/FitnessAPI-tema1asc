@@ -24,6 +24,8 @@ Functii implementate:
 /api/num_jobs -> Functia returneaza numarul de joburi care sunt inca in executie
 / si /index -> aici avem pagina principala care listeaza toate rutele disponibile ale API
 
+De asemenea, in fiecare functie am verificat, folosind o variabila accept din init, dac acumva s a dat shutdown, pentru a nu mai putea primi joburi noi, dar totusi sa se poata termina cele care sunt incepute deja.
+
 Pe scurt, marea majoritate a rutelor folosesc mecanismul asincron al aplicatiei, adaugand taskuri in coada de executie. Pentru fiecare job se va retine un id si va fi salvat in fisierele JSON din directorul results. Tot aici, am adaugat periodic mesaje in logger pentru a putea vedea ceea ce se intampla si a putea face debugging mai usor acolo unde a fost nevoie. Toate acestea le puteam vedea in fisierul webserver.log.
 
 2. task_runner.py:
@@ -50,9 +52,10 @@ get_mean_by_category(question, state=None) -> returneaza media pe categorii de s
 In acest fisier am initializat aplicatia Flask si am configurat loggerul, am incarcat datele si sistemul de gestionare al taskurilor.
 Am creat in prima faza directorul results, unde vor fi salvate rezultatele joburilor in fisiere .json. In continuare, am configurat loggerul,
 care scrie intr un fisier webserver.log. Acesta foloseste formatul UTC conform cerintei. Este initializata apoi aplicatia Flask si se ataseaza
-loggerul. Se încarcă fișierul nutrition_activity_obesity_usa_subset.csv prin clasa DataIngestor, care va fi disponibilă global 
-prin webserver.data_ingestor. POrnesc apoi threadpool ul, care va fi si el disponibil prin webserver.tasks_runner. In ultima parte, am initializat
-job counterul, care este folosit pentru a genera id urile unice ale fiecarui job in parte.
+loggerul. Tot aici am creat o variabila accept, pe care aici o fac true, care se va face false in graceful_shutdown pentru a verifica daca se inchide
+serverul chiar daca mai are chestii de facut. Se încarcă fișierul nutrition_activity_obesity_usa_subset.csv prin clasa DataIngestor, care va fi 
+disponibilă global prin webserver.data_ingestor. POrnesc apoi threadpool ul, care va fi si el disponibil prin webserver.tasks_runner. 
+In ultima parte, am initializat job counterul, care este folosit pentru a genera id urile unice ale fiecarui job in parte.
 In concluzie, acest fisier este practic punctul de start al aplicatiei si centralizeaza aici pornirea si initializarea tuturor componentelor necesare 
 functionarii aplicatiei. 
 

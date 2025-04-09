@@ -40,6 +40,9 @@ def get_response(job_id):
 @webserver.route('/api/states_mean', methods=['POST'])
 def states_mean_request():
     """Initiaza un job pentru calcularea mediei valorilor pe fiecare stat"""
+    if not webserver.accept:
+        return jsonify({"status": "error", "reason": "shutting down"}), 405
+    
     data = request.json
     question = data.get("question")
 
@@ -59,6 +62,9 @@ def states_mean_request():
 @webserver.route('/api/state_mean', methods=['POST'])
 def state_mean_request():
     """Calcularea mediei valorii pentru un stat si o intrebare specificata"""
+    if not webserver.accept:
+        return jsonify({"status": "error", "reason": "shutting down"}), 405
+    
     data = request.json
     question = data.get("question")
     state = data.get("state")
@@ -80,6 +86,9 @@ def state_mean_request():
 @webserver.route('/api/best5', methods=['POST'])
 def best5_request():
     """Returneaza cele mai bine cotate 5 state pentru o intrebare"""
+    if not webserver.accept:
+        return jsonify({"status": "error", "reason": "shutting down"}), 405
+    
     data = request.json
     question = data.get("question")
 
@@ -104,6 +113,9 @@ def best5_request():
 @webserver.route('/api/worst5', methods=['POST'])
 def worst5_request():
     """Returneaza cele mai prost cotate 5 state pentru o intrebare"""
+    if not webserver.accept:
+        return jsonify({"status": "error", "reason": "shutting down"}), 405
+    
     data = request.json
     question = data.get("question")
 
@@ -129,6 +141,9 @@ def worst5_request():
 @webserver.route('/api/global_mean', methods=['POST'])
 def global_mean_request():
     """Returneaza media globala pentru o intrebare"""
+    if not webserver.accept:
+        return jsonify({"status": "error", "reason": "shutting down"}), 405
+    
     data = request.json
     question = data.get("question")
 
@@ -148,6 +163,9 @@ def global_mean_request():
 @webserver.route('/api/diff_from_mean', methods=['POST'])
 def diff_from_mean_request():
     """Returneaza diferenta dintre media globala si media pe state"""
+    if not webserver.accept:
+        return jsonify({"status": "error", "reason": "shutting down"}), 405
+    
     data = request.json
     question = data.get("question")
 
@@ -175,6 +193,9 @@ def diff_from_mean_request():
 @webserver.route('/api/state_diff_from_mean', methods=['POST'])
 def state_diff_from_mean_request():
     """Returneaza diferenta dintre media globala si media unui stat dat"""
+    if not webserver.accept:
+        return jsonify({"status": "error", "reason": "shutting down"}), 405
+    
     data = request.json
     question = data.get("question")
     state = data.get("state")
@@ -203,6 +224,9 @@ def state_diff_from_mean_request():
 @webserver.route('/api/mean_by_category', methods=['POST'])
 def mean_by_category_request():
     """Returneaza media valorilor grupate pe categorie pentru o intrebare"""
+    if not webserver.accept:
+        return jsonify({"status": "error", "reason": "shutting down"}), 405
+    
     data = request.json
     question = data.get("question")
 
@@ -222,6 +246,9 @@ def mean_by_category_request():
 @webserver.route('/api/state_mean_by_category', methods=['POST'])
 def state_mean_by_category_request():
     """Returneaza media valorilor grupate pe categorie pentru un stat si o intrebare"""
+    if not webserver.accept:
+        return jsonify({"status": "error", "reason": "shutting down"}), 405
+    
     data = request.json
     question = data.get("question")
     state = data.get("state")
@@ -246,6 +273,7 @@ def state_mean_by_category_request():
 def graceful_shutdown():
     """Initiaza oprirea controlata a serv dupa finalizarea joburilor in curs"""
     webserver.tasks_runner.graceful_shutdown()
+    webserver.accept = False
     if webserver.tasks_runner.pending_jobs() > 0:
         return jsonify({"status": "running"})
     webserver.logger.info("Server is shutting down gracefully.")
