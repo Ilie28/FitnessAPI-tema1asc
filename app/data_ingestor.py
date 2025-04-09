@@ -2,7 +2,7 @@
 import pandas as pd
 
 class DataIngestor:
-    """Clasa care citeste fișierul CSV in care creez functii pentru a prelucra datele"""
+    """Clasa care citeste fisierul CSV in care creez functii pentru a prelucra datele"""
     def __init__(self, csv_path: str):
         """Initializez citirea datelor din fisierul CSV"""
         self.df = pd.read_csv(csv_path)
